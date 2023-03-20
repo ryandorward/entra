@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Entra on Entra.ca</title>
-    <link>https://entra.ca/</link>
-    <description>Recent content in Entra on Entra.ca</description>
+    <title>blog on Entra.ca</title>
+    <link>https://entra.ca/tags/blog/</link>
+    <description>Recent content in blog on Entra.ca</description>
     <image>
       <title>Entra.ca</title>
       <url>https://entra.ca/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,25 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Mar 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Markdown Cheatsheet, Hugo-flavoured</title>
-      <link>https://entra.ca/blog/markdown/</link>
-      <pubDate>Sun, 19 Mar 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/blog/markdown/</guid>
-      <description>Examples showing how Markdown behaves in Hugo</description>
-    </item>
-    
-    <item>
-      <title>How to set up a free Blog using Hugo</title>
-      <link>https://entra.ca/blog/build-blog/</link>
-      <pubDate>Fri, 17 Mar 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/blog/build-blog/</guid>
-      <description>A walkthrough tutorial of how to set up a blog like this one</description>
-    </item>
-    
+    <lastBuildDate>Thu, 16 Mar 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo vs. Gatsby vs. Jekyll: Choosing the right framework for a blog</title>
       <link>https://entra.ca/blog/choosing-a-framework/</link>

@@ -22,12 +22,30 @@
     </item>
     
     <item>
-      <title>Set up a free Blog using Hugo</title>
+      <title>How to set up a free Blog using Hugo</title>
       <link>https://entra.ca/blog/build-blog/</link>
-      <pubDate>Wed, 15 Mar 2023 22:57:04 +0530</pubDate>
+      <pubDate>Fri, 17 Mar 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/blog/build-blog/</guid>
       <description>A walkthrough tutorial of how to set up a blog like this one</description>
+    </item>
+    
+    <item>
+      <title>Hugo vs. Gatsby vs. Jekyll: Choosing the right framework for a blog</title>
+      <link>https://entra.ca/blog/choosing-a-framework/</link>
+      <pubDate>Thu, 16 Mar 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/blog/choosing-a-framework/</guid>
+      <description>How I came to choose Hugo for my blogging framework</description>
+    </item>
+    
+    <item>
+      <title>Why Start a blog?</title>
+      <link>https://entra.ca/blog/starting-a-blog/</link>
+      <pubDate>Wed, 15 Mar 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/blog/starting-a-blog/</guid>
+      <description>Why I took up blogging like it&amp;#39;s 2004</description>
     </item>
     
   </channel>
