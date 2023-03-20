@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/md/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/md/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Cheatsheet, Hugo-flavoured</title>
       <link>https://entra.ca/blog/markdown/</link>
-      <pubDate>Wed, 15 Mar 2023 22:57:04 +0530</pubDate>
+      <pubDate>Sun, 19 Mar 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/blog/markdown/</guid>
       <description>Examples showing how Markdown behaves in Hugo</description>
