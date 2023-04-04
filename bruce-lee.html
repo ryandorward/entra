@@ -9,6 +9,23 @@
         const quote = `<div class='quote-container'>` + data['quote'] + `</div>`
         document.querySelector('.text-wrap').innerHTML = quote
       })
+
+    // listen to all clicks on the document:
+
+    document.addEventListener('click', (e)=> {
+      // check if the click is on the quote
+      if (e.target.classList.contains('quote-container')) {
+        // if so, add a loading class
+        e.target.classList.add('loading')
+        // if so, fetch a new quote
+        fetch ('https://www.asiapacific.ca/pgapi/public/bruce-lee.php')
+          .then (response => response.json ())
+          .then (data => {
+            const quote = `<div class='quote-container'>` + data['quote'] + `</div>`
+            document.querySelector('.text-wrap').innerHTML = quote
+          })
+      }
+    })
   </script>
   <style>
     body {
@@ -43,6 +60,10 @@
       background: #ffffffbb;
       max-width: 700px;
       margin: 0 10%;
+      cursor: pointer;
+    }
+    .quote-container.loading {
+      cursor: wait;
     }
 
   </style>
