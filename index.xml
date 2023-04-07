@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Mar 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://entra.ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting the human-readable value from a ListStringItem Field in Drupal</title>
+      <link>https://entra.ca/blog/drupal-human-readable-liststringitem/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://entra.ca/blog/drupal-human-readable-liststringitem/</guid>
+      <description>Doing Drupal the programatic way</description>
+    </item>
+    
     <item>
       <title>Markdown Cheatsheet, Hugo-flavoured</title>
       <link>https://entra.ca/blog/markdown/</link>

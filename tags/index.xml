@@ -11,7 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Mar 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>drupal</title>
+      <link>https://entra.ca/tags/drupal/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://entra.ca/tags/drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programatic</title>
+      <link>https://entra.ca/tags/programatic/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://entra.ca/tags/programatic/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cheatsheet</title>
       <link>https://entra.ca/tags/cheatsheet/</link>
