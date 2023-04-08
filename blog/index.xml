@@ -11,9 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://entra.ca/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://entra.ca/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting the human-readable value from a ListStringItem Field in Drupal</title>
+      <title>Drupal ListStringItem pt.2: Getting the translated value</title>
+      <link>https://entra.ca/blog/drupal-translated-liststringitem/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://entra.ca/blog/drupal-translated-liststringitem/</guid>
+      <description>Doing Drupal the programatic way</description>
+    </item>
+    
+    <item>
+      <title>Drupal ListStringItem pt.1: Getting the human-readable value programatically</title>
       <link>https://entra.ca/blog/drupal-human-readable-liststringitem/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
       
