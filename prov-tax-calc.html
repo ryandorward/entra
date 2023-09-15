@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Provincial Tax Calculator</title>
+	<style>
+		input {
+			padding: 10px;
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+		button {
+			padding: 10px;
+			font-size: 20px;
+		}
+		table {
+			margin-top: 20px;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		table td, table th {
+			border: 1px solid black;
+			padding: 10px;
+		}
+		table th {
+			background-color: #ddd;
+			text-align: left;
+		}
+	</style>
+  <script>
+
+    function calculate() {
+      const income = document.getElementById("income").value;
+      const tax = calculateProvincialTax(income);
+      alert(`Your provincial taxes are:\n${JSON.stringify(tax, null, 2)}`);
+    }
+
+    function calculateProvincialTax(taxableIncome) {
+      const provinces = [
+        { name: "British Columbia", rates: [0.0506,0.077,0.105,0.1229,0.1470,0.1680,0.2050], brackets: [43070, 43071, 12760, 21193, 42738, 64259, Infinity] },
+        { name: "Alberta", rates: [0.1, 0.12, 0.13, 0.15], brackets: [131220, 26244, 104976, Infinity] },
+        { name: "Saskatchewan", rates: [0.105, 0.125, 0.145], brackets: [45677, 84829, Infinity] },
+        { name: "Ontario", rates: [0.0505, 0.0915, 0.1116, 0.1216, 0.1316], brackets: [45142, 45145, 59713, 70000, Infinity] },
+        { name: "Quebec", rates: [0.15, 0.2, 0.24, 0.2575], brackets: [45105, 45095, 19555, Infinity] },
+        { name: "Yukon", rates: [0.064, 0.09, 0.109, 0.128, 0.15], brackets: [49020, 49020, 53938, 348022, Infinity] }
+      ];
+
+      const provincialTax = {};
+
+      provinces.forEach(province => {
+        let tax = 0;
+        let remainingIncome = taxableIncome;
+        for (let i = 0; i < province.rates.length; i++) {
+          const rate = province.rates[i];
+          const bracket = province.brackets[i];
+          if (remainingIncome > 0) {
+            const taxableAmount = Math.min(remainingIncome, bracket);
+            tax += taxableAmount * rate;
+            remainingIncome -= taxableAmount;
+          } else {
+            break;
+          }
+        }
+        provincialTax[province.name] = tax.toFixed(2);
+      });
+
+      return provincialTax;
+    }
+
+
+
+  </script>
+</head>
+<body>
+	<h1>Provincial Tax Calculator</h1>
+	<label for="income">Enter your taxable income:</label>
+	<input type="number" id="income">
+	<button onclick="calculate()">Calculate</button>
+</body>
+</html>

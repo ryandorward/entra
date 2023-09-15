@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/doracle/static/css/main.856c88c5.css",
+    "main.js": "/doracle/static/js/main.92fb1bb0.js",
+    "static/js/787.9a523807.chunk.js": "/doracle/static/js/787.9a523807.chunk.js",
+    "index.html": "/doracle/index.html",
+    "main.856c88c5.css.map": "/doracle/static/css/main.856c88c5.css.map",
+    "main.92fb1bb0.js.map": "/doracle/static/js/main.92fb1bb0.js.map",
+    "787.9a523807.chunk.js.map": "/doracle/static/js/787.9a523807.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.856c88c5.css",
+    "static/js/main.92fb1bb0.js"
+  ]
+}
