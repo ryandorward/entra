@@ -11,13 +11,76 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Dec 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://entra.ca/tags/blog/</link>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/blog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>drupal</title>
       <link>https://entra.ca/tags/drupal/</link>
-      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/tags/drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>front-end</title>
+      <link>https://entra.ca/tags/front-end/</link>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/front-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gulp</title>
+      <link>https://entra.ca/tags/gulp/</link>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/gulp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>livereload</title>
+      <link>https://entra.ca/tags/livereload/</link>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/livereload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scss</title>
+      <link>https://entra.ca/tags/scss/</link>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/scss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tailwind</title>
+      <link>https://entra.ca/tags/tailwind/</link>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/tailwind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theming</title>
+      <link>https://entra.ca/tags/theming/</link>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/theming/</guid>
       <description></description>
     </item>
     
@@ -90,15 +153,6 @@
       <pubDate>Fri, 17 Mar 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/tags/papermod/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://entra.ca/tags/blog/</link>
-      <pubDate>Thu, 16 Mar 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/blog/</guid>
       <description></description>
     </item>
     

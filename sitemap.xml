@@ -2,22 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://entra.ca/tags/blog/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
     <loc>https://entra.ca/blog/</loc>
-    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/drupal/</loc>
-    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/blog/drupal-tailwind-livereload-scss/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/front-end/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/gulp/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/livereload/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/scss/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/tailwind/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/theming/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/blog/drupal-translated-liststringitem/</loc>
     <lastmod>2023-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://entra.ca/</loc>
-    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://entra.ca/tags/programatic/</loc>
-    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/</loc>
     <lastmod>2023-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://entra.ca/blog/drupal-human-readable-liststringitem/</loc>
@@ -49,9 +73,6 @@
   </url><url>
     <loc>https://entra.ca/tags/papermod/</loc>
     <lastmod>2023-03-17T22:57:04+05:30</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/blog/</loc>
-    <lastmod>2023-03-16T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/blog/choosing-a-framework/</loc>
     <lastmod>2023-03-16T22:57:04+05:30</lastmod>
