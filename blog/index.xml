@@ -13,12 +13,12 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Dec 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Drupal Themeing with Hot Reloading, Tailwind, and modern CSS</title>
+      <title>Make your Drupal Themeing Fly with Tailwind, Hot Reloading, and Modern CSS</title>
       <link>https://entra.ca/blog/drupal-tailwind-livereload-scss/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/blog/drupal-tailwind-livereload-scss/</guid>
-      <description>Integrating LiveReload, SCSS, and Tailwind in Drupal Theme Development</description>
+      <description>Integrating Tailwind, LiveReload, and SCSS, with Drupal Theme Development</description>
     </item>
     
     <item>
