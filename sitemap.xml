@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://entra.ca/tags/blog/</loc>
-    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
-  </url><url>
     <loc>https://entra.ca/blog/</loc>
-    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/blog/drupal-cache-variance-template-trick/</loc>
+    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/drupal/</loc>
-    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/</loc>
+    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/</loc>
+    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/themeing/</loc>
+    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/blog/</loc>
     <lastmod>2023-12-12T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/front-end/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2023-12-12T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/scss/</loc>
-    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/</loc>
     <lastmod>2023-12-12T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/tailwind/</loc>
