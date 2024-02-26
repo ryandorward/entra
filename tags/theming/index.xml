@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>theming on Entra.ca</title>
+    <title>Theming on Entra.ca</title>
     <link>https://entra.ca/tags/theming/</link>
-    <description>Recent content in theming on Entra.ca</description>
+    <description>Recent content in Theming on Entra.ca</description>
     <image>
       <title>Entra.ca</title>
       <url>https://entra.ca/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -13,7 +13,7 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Dec 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/theming/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Make your Drupal Theme Fly with Tailwind, Hot Reloading, and Modern CSS</title>
+      <title>Make your Drupal Theme Fly: Tailwind, Hot Reloading, and SCSS</title>
       <link>https://entra.ca/blog/drupal-tailwind-livereload-scss/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       

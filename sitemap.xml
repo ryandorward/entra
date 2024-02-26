@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://entra.ca/tags/blog/</loc>
+    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
+  </url><url>
     <loc>https://entra.ca/blog/</loc>
     <lastmod>2024-01-15T13:41:00+05:00</lastmod>
   </url><url>
@@ -14,14 +17,14 @@
     <loc>https://entra.ca/</loc>
     <lastmod>2024-01-15T13:41:00+05:00</lastmod>
   </url><url>
+    <loc>https://entra.ca/tags/programatic/</loc>
+    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
+  </url><url>
     <loc>https://entra.ca/tags/</loc>
     <lastmod>2024-01-15T13:41:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/themeing/</loc>
     <lastmod>2024-01-15T13:41:00+05:00</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/blog/</loc>
-    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/front-end/</loc>
     <lastmod>2023-12-12T22:57:04+05:30</lastmod>
@@ -47,11 +50,20 @@
     <loc>https://entra.ca/blog/drupal-translated-liststringitem/</loc>
     <lastmod>2023-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://entra.ca/tags/programatic/</loc>
-    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://entra.ca/blog/drupal-human-readable-liststringitem/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/docker/</loc>
+    <lastmod>2023-03-25T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/blog/dockerized-rails/</loc>
+    <lastmod>2023-03-25T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/rails/</loc>
+    <lastmod>2023-03-25T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/ruby/</loc>
+    <lastmod>2023-03-25T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/cheatsheet/</loc>
     <lastmod>2023-03-19T22:57:04+05:30</lastmod>
@@ -85,6 +97,10 @@
   </url><url>
     <loc>https://entra.ca/blog/starting-a-blog/</loc>
     <lastmod>2023-03-15T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/bruce-lee/</loc>
+  </url><url>
+    <loc>https://entra.ca/prov-tax-calc/</loc>
   </url><url>
     <loc>https://entra.ca/categories/</loc>
   </url>

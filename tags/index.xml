@@ -13,7 +13,16 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jan 2024 13:41:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>drupal</title>
+      <title>Blog</title>
+      <link>https://entra.ca/tags/blog/</link>
+      <pubDate>Mon, 15 Jan 2024 13:41:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drupal</title>
       <link>https://entra.ca/tags/drupal/</link>
       <pubDate>Mon, 15 Jan 2024 13:41:00 +0500</pubDate>
       
@@ -22,7 +31,16 @@
     </item>
     
     <item>
-      <title>themeing</title>
+      <title>Programatic</title>
+      <link>https://entra.ca/tags/programatic/</link>
+      <pubDate>Mon, 15 Jan 2024 13:41:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/programatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themeing</title>
       <link>https://entra.ca/tags/themeing/</link>
       <pubDate>Mon, 15 Jan 2024 13:41:00 +0500</pubDate>
       
@@ -31,16 +49,7 @@
     </item>
     
     <item>
-      <title>blog</title>
-      <link>https://entra.ca/tags/blog/</link>
-      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>front-end</title>
+      <title>Front-End</title>
       <link>https://entra.ca/tags/front-end/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
@@ -49,7 +58,7 @@
     </item>
     
     <item>
-      <title>gulp</title>
+      <title>Gulp</title>
       <link>https://entra.ca/tags/gulp/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
@@ -58,7 +67,7 @@
     </item>
     
     <item>
-      <title>livereload</title>
+      <title>Livereload</title>
       <link>https://entra.ca/tags/livereload/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
@@ -67,7 +76,7 @@
     </item>
     
     <item>
-      <title>scss</title>
+      <title>Scss</title>
       <link>https://entra.ca/tags/scss/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
@@ -76,7 +85,7 @@
     </item>
     
     <item>
-      <title>tailwind</title>
+      <title>Tailwind</title>
       <link>https://entra.ca/tags/tailwind/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
@@ -85,7 +94,7 @@
     </item>
     
     <item>
-      <title>theming</title>
+      <title>Theming</title>
       <link>https://entra.ca/tags/theming/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
@@ -94,16 +103,34 @@
     </item>
     
     <item>
-      <title>programatic</title>
-      <link>https://entra.ca/tags/programatic/</link>
-      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      <title>Docker</title>
+      <link>https://entra.ca/tags/docker/</link>
+      <pubDate>Sat, 25 Mar 2023 22:57:04 +0530</pubDate>
       
-      <guid>https://entra.ca/tags/programatic/</guid>
+      <guid>https://entra.ca/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cheatsheet</title>
+      <title>Rails</title>
+      <link>https://entra.ca/tags/rails/</link>
+      <pubDate>Sat, 25 Mar 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://entra.ca/tags/ruby/</link>
+      <pubDate>Sat, 25 Mar 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cheatsheet</title>
       <link>https://entra.ca/tags/cheatsheet/</link>
       <pubDate>Sun, 19 Mar 2023 22:57:04 +0530</pubDate>
       
@@ -112,7 +139,7 @@
     </item>
     
     <item>
-      <title>examples</title>
+      <title>Examples</title>
       <link>https://entra.ca/tags/examples/</link>
       <pubDate>Sun, 19 Mar 2023 22:57:04 +0530</pubDate>
       
@@ -121,7 +148,7 @@
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://entra.ca/tags/hugo/</link>
       <pubDate>Sun, 19 Mar 2023 22:57:04 +0530</pubDate>
       
@@ -130,7 +157,7 @@
     </item>
     
     <item>
-      <title>markdown</title>
+      <title>Markdown</title>
       <link>https://entra.ca/tags/markdown/</link>
       <pubDate>Sun, 19 Mar 2023 22:57:04 +0530</pubDate>
       
@@ -139,7 +166,7 @@
     </item>
     
     <item>
-      <title>md</title>
+      <title>Md</title>
       <link>https://entra.ca/tags/md/</link>
       <pubDate>Sun, 19 Mar 2023 22:57:04 +0530</pubDate>
       
