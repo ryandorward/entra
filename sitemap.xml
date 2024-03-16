@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://entra.ca/tags/blog/</loc>
-    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
-  </url><url>
     <loc>https://entra.ca/blog/</loc>
-    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
+    <lastmod>2024-04-25T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/</loc>
+    <lastmod>2024-04-25T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/blog/</loc>
+    <lastmod>2024-03-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/frontend/</loc>
+    <lastmod>2024-03-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/react/</loc>
+    <lastmod>2024-03-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/blog/wp-react-sass/</loc>
+    <lastmod>2024-03-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/</loc>
+    <lastmod>2024-03-15T13:41:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/wordpress/</loc>
+    <lastmod>2024-03-15T13:41:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/blog/drupal-cache-variance-template-trick/</loc>
     <lastmod>2024-01-15T13:41:00+05:00</lastmod>
@@ -14,13 +32,7 @@
     <loc>https://entra.ca/tags/drupal/</loc>
     <lastmod>2024-01-15T13:41:00+05:00</lastmod>
   </url><url>
-    <loc>https://entra.ca/</loc>
-    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
-  </url><url>
     <loc>https://entra.ca/tags/programatic/</loc>
-    <lastmod>2024-01-15T13:41:00+05:00</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/</loc>
     <lastmod>2024-01-15T13:41:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/themeing/</loc>
@@ -54,16 +66,16 @@
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/docker/</loc>
-    <lastmod>2023-03-25T22:57:04+05:30</lastmod>
+    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/blog/dockerized-rails/</loc>
-    <lastmod>2023-03-25T22:57:04+05:30</lastmod>
+    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/rails/</loc>
-    <lastmod>2023-03-25T22:57:04+05:30</lastmod>
+    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/ruby/</loc>
-    <lastmod>2023-03-25T22:57:04+05:30</lastmod>
+    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/cheatsheet/</loc>
     <lastmod>2023-03-19T22:57:04+05:30</lastmod>

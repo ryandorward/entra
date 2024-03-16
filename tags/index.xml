@@ -11,13 +11,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2024 13:41:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 13:41:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://entra.ca/tags/blog/</link>
-      <pubDate>Mon, 15 Jan 2024 13:41:00 +0500</pubDate>
+      <pubDate>Fri, 15 Mar 2024 13:41:00 +0500</pubDate>
       
       <guid>https://entra.ca/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontend</title>
+      <link>https://entra.ca/tags/frontend/</link>
+      <pubDate>Fri, 15 Mar 2024 13:41:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://entra.ca/tags/react/</link>
+      <pubDate>Fri, 15 Mar 2024 13:41:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WordPress</title>
+      <link>https://entra.ca/tags/wordpress/</link>
+      <pubDate>Fri, 15 Mar 2024 13:41:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/wordpress/</guid>
       <description></description>
     </item>
     
@@ -105,7 +132,7 @@
     <item>
       <title>Docker</title>
       <link>https://entra.ca/tags/docker/</link>
-      <pubDate>Sat, 25 Mar 2023 22:57:04 +0530</pubDate>
+      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/tags/docker/</guid>
       <description></description>
@@ -114,7 +141,7 @@
     <item>
       <title>Rails</title>
       <link>https://entra.ca/tags/rails/</link>
-      <pubDate>Sat, 25 Mar 2023 22:57:04 +0530</pubDate>
+      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/tags/rails/</guid>
       <description></description>
@@ -123,7 +150,7 @@
     <item>
       <title>Ruby</title>
       <link>https://entra.ca/tags/ruby/</link>
-      <pubDate>Sat, 25 Mar 2023 22:57:04 +0530</pubDate>
+      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/tags/ruby/</guid>
       <description></description>
