@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Dec 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 13:41:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React and sass in Wordpress</title>
+      <link>https://entra.ca/blog/wp-react-sass/</link>
+      <pubDate>Fri, 15 Mar 2024 13:41:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/blog/wp-react-sass/</guid>
+      <description>Setting up the groundwork for React and Sass development in a WordPress environment</description>
+    </item>
+    
     <item>
       <title>Make your Drupal Theme Fly: Tailwind, Hot Reloading, and SCSS</title>
       <link>https://entra.ca/blog/drupal-tailwind-livereload-scss/</link>
