@@ -40,42 +40,6 @@
     </item>
     
     <item>
-      <title>Docker</title>
-      <link>https://entra.ca/tags/docker/</link>
-      <pubDate>Thu, 25 Apr 2024 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rails</title>
-      <link>https://entra.ca/tags/rails/</link>
-      <pubDate>Thu, 25 Apr 2024 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/rails/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://entra.ca/tags/ruby/</link>
-      <pubDate>Thu, 25 Apr 2024 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tailwind</title>
-      <link>https://entra.ca/tags/tailwind/</link>
-      <pubDate>Thu, 25 Apr 2024 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/tailwind/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Front-End</title>
       <link>https://entra.ca/tags/front-end/</link>
       <pubDate>Fri, 15 Mar 2024 13:41:00 +0500</pubDate>
@@ -148,11 +112,47 @@
     </item>
     
     <item>
+      <title>Tailwind</title>
+      <link>https://entra.ca/tags/tailwind/</link>
+      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/tailwind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Theming</title>
       <link>https://entra.ca/tags/theming/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/tags/theming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://entra.ca/tags/docker/</link>
+      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rails</title>
+      <link>https://entra.ca/tags/rails/</link>
+      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://entra.ca/tags/ruby/</link>
+      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/ruby/</guid>
       <description></description>
     </item>
     

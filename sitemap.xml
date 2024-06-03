@@ -14,29 +14,14 @@
     <loc>https://entra.ca/tags/drupal-10/</loc>
     <lastmod>2024-05-30T16:00:00+05:00</lastmod>
   </url><url>
-    <loc>https://entra.ca/</loc>
+    <loc>https://entra.ca/blog/drupal-image-tokens/</loc>
     <lastmod>2024-05-30T16:00:00+05:00</lastmod>
   </url><url>
-    <loc>https://entra.ca/blog/drupal-image-tokens/</loc>
+    <loc>https://entra.ca/</loc>
     <lastmod>2024-05-30T16:00:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/</loc>
     <lastmod>2024-05-30T16:00:00+05:00</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/docker/</loc>
-    <lastmod>2024-04-25T22:57:04+05:30</lastmod>
-  </url><url>
-    <loc>https://entra.ca/blog/dockerized-rails-pt2/</loc>
-    <lastmod>2024-04-25T22:57:04+05:30</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/rails/</loc>
-    <lastmod>2024-04-25T22:57:04+05:30</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/ruby/</loc>
-    <lastmod>2024-04-25T22:57:04+05:30</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/tailwind/</loc>
-    <lastmod>2024-04-25T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/front-end/</loc>
     <lastmod>2024-03-15T13:41:00+05:00</lastmod>
@@ -71,6 +56,9 @@
     <loc>https://entra.ca/tags/scss/</loc>
     <lastmod>2023-12-12T22:57:04+05:30</lastmod>
   </url><url>
+    <loc>https://entra.ca/tags/tailwind/</loc>
+    <lastmod>2023-12-12T22:57:04+05:30</lastmod>
+  </url><url>
     <loc>https://entra.ca/tags/theming/</loc>
     <lastmod>2023-12-12T22:57:04+05:30</lastmod>
   </url><url>
@@ -80,7 +68,16 @@
     <loc>https://entra.ca/blog/drupal-human-readable-liststringitem/</loc>
     <lastmod>2023-04-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://entra.ca/tags/docker/</loc>
+    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
+  </url><url>
     <loc>https://entra.ca/blog/dockerized-rails/</loc>
+    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/rails/</loc>
+    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/ruby/</loc>
     <lastmod>2023-03-24T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/cheatsheet/</loc>

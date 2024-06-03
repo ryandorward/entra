@@ -13,22 +13,13 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 30 May 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Image styles on image tokens in Drupal</title>
+      <title>Drupal: Image styles in Tokens</title>
       <link>https://entra.ca/blog/drupal-image-tokens/</link>
       <pubDate>Thu, 30 May 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/blog/drupal-image-tokens/</guid>
       <description>I was hitting a roadblock trying to get a sites metatags nice for social sharing, using the Metatags module. In the past I&amp;rsquo;ve written code to manually generate the meta tags, but thought this time around I would see if I could not reinvent the wheel.
 I started to regret my decision when it seemed like tokens for images don&amp;rsquo;t allow you to serve up derivative images using Image styles. This meant that the only option was to present the image that was uploaded in the raw form - not always what you want.</description>
-    </item>
-    
-    <item>
-      <title>Dockerized Rails app pt.2: Adding Tailwind</title>
-      <link>https://entra.ca/blog/dockerized-rails-pt2/</link>
-      <pubDate>Thu, 25 Apr 2024 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/blog/dockerized-rails-pt2/</guid>
-      <description>WAdding Tailwind to the basic Rails app</description>
     </item>
     
     <item>
