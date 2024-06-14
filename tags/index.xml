@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 May 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://entra.ca/tags/blog/</link>
-      <pubDate>Thu, 30 May 2024 16:00:00 +0500</pubDate>
+      <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/tags/blog/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Drupal</title>
       <link>https://entra.ca/tags/drupal/</link>
-      <pubDate>Thu, 30 May 2024 16:00:00 +0500</pubDate>
+      <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/tags/drupal/</guid>
       <description></description>
@@ -33,9 +33,27 @@
     <item>
       <title>Drupal 10</title>
       <link>https://entra.ca/tags/drupal-10/</link>
-      <pubDate>Thu, 30 May 2024 16:00:00 +0500</pubDate>
+      <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/tags/drupal-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entities</title>
+      <link>https://entra.ca/tags/entities/</link>
+      <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/entities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programatic Drupal</title>
+      <link>https://entra.ca/tags/programatic-drupal/</link>
+      <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/programatic-drupal/</guid>
       <description></description>
     </item>
     

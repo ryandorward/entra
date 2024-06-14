@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 May 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drupal: Hidden fields in programaticly defined entities</title>
+      <link>https://entra.ca/blog/drupal-hidden-programatic-entity-fields/</link>
+      <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/blog/drupal-hidden-programatic-entity-fields/</guid>
+      <description>It can be useful to define custom entities programatically for streamlined CRUD webapps using Drupal. One nice thing about doing it this way is that you can keep all your entity definitions in the code, so deployment is easier - no clicking around on the various environments to keep things synced or akward db sync scripts.
+Sometimes a custom entity needs to have a hidden field that should not be exposed in the user-facing create/edit form.</description>
+    </item>
+    
     <item>
       <title>Drupal: Image styles in Tokens</title>
       <link>https://entra.ca/blog/drupal-image-tokens/</link>
