@@ -11,15 +11,43 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jul 2024 11:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Syntax notes on Ruby ecosystem</title>
+      <link>https://entra.ca/blog/ruby-syntax/</link>
+      <pubDate>Fri, 12 Jul 2024 11:00:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/blog/ruby-syntax/</guid>
+      <description>&lt;h1 id=&#34;syntax-notes-on-ruby-ecosystem&#34;&gt;Syntax notes on Ruby ecosystem&lt;/h1&gt;
+&lt;p&gt;Some notes, on syntax in the Ruby ecosystem, namely Ruby itself, ERB and Rails.&lt;/p&gt;
+&lt;h2 id=&#34;ruby&#34;&gt;Ruby&lt;/h2&gt;
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# single line comment&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;=begin
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;Multi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;Line
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;The =begin and =end must be at the beginning of the line
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;=end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or just&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# do multiline&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# like this&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Too bad multiline comments are a bit clunky&lt;/p&gt;
+&lt;h2 id=&#34;erb&#34;&gt;ERB&lt;/h2&gt;
+&lt;p&gt;ERB (Embedded Ruby) is a templating system for embedding Ruby code within a text document like HTML.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Drupal: Hidden fields in programaticly defined entities</title>
       <link>https://entra.ca/blog/drupal-hidden-programatic-entity-fields/</link>
       <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/blog/drupal-hidden-programatic-entity-fields/</guid>
-      <description>It can be useful to define custom entities programatically for streamlined CRUD webapps using Drupal. One nice thing about doing it this way is that you can keep all your entity definitions in the code, so deployment is easier - no clicking around on the various environments to keep things synced or akward db sync scripts.
-Sometimes a custom entity needs to have a hidden field that should not be exposed in the user-facing create/edit form.</description>
+      <description>&lt;p&gt;It can be useful to define custom entities programatically for streamlined CRUD webapps using Drupal. One nice thing about doing it this way is that you can keep all your entity definitions in the code, so deployment is easier - no clicking around on the various environments to keep things synced or akward db sync scripts.&lt;/p&gt;
+&lt;p&gt;Sometimes a custom entity needs to have a hidden field that should not be exposed in the user-facing create/edit form. It might have a value that&amp;rsquo;s handled programatically, like a timestamp for when the entity was published, or in my case, a special kind of &amp;ldquo;owner&amp;rdquo; that differs from the entity creator.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,8 +56,8 @@ Sometimes a custom entity needs to have a hidden field that should not be expose
       <pubDate>Thu, 30 May 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/blog/drupal-image-tokens/</guid>
-      <description>I was hitting a roadblock trying to get a sites metatags nice for social sharing, using the Metatags module. In the past I&amp;rsquo;ve written code to manually generate the meta tags, but thought this time around I would see if I could not reinvent the wheel.
-I started to regret my decision when it seemed like tokens for images don&amp;rsquo;t allow you to serve up derivative images using Image styles. This meant that the only option was to present the image that was uploaded in the raw form - not always what you want.</description>
+      <description>&lt;p&gt;I was hitting a roadblock trying to get a sites metatags nice for social sharing, using the Metatags module. In the past I&amp;rsquo;ve written code to manually generate the meta tags, but thought this time around I would see if I could not reinvent the wheel.&lt;/p&gt;
+&lt;p&gt;I started to regret my decision when it seemed like tokens for images don&amp;rsquo;t allow you to serve up derivative images using Image styles. This meant that the only option was to present the image that was uploaded in the raw form - not always what you want. In my case it seemed like some of the source images used by my client were so large that Formerly Twitter ™ was failing to scrape the image because of a timeout or some other limit on their end.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -128,7 +156,175 @@ I started to regret my decision when it seemed like tokens for images don&amp;rs
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://entra.ca/bruce-lee/</guid>
-      <description>&lt;!DOCTYPE html&gt; BGBBBBBBBBBBBBBBBBBBBBBBBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#BGPPPP55555555555555555555YYY55555555555555555PPPPPPPPPPGGGGGGPPPPPP55555555YYY BGBBBBBBBBBBBBBBBBBBBBBBBB####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;BP555YYYYY5555555YYY5555YYYY55YY5555555555PPPPPPPPPPPPPPPPPP555555555YYYYYYYY BGGBBBBBGBBBBBGBBBBBBB#####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#G55YYYY55555555555555555555YYY55555PPPPPPPPPPPPPPPP5555555555555YYYYYYYJJJY BGGGBBBBGBBBBBBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;#G555555555PP555555YYYYYYYYYYY55555PPPPPPPPPPPPP555YYYYY5555555YYYYYYYYJYY BGGBBBBBBBBBBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#G555YYY555YYYYYYYYYYYYYYYYYYY555555555555555555YYY55Y5555555555YYYYYYYY BBBBBBBBBBB#BB#####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;G5YYYYYYYYYYYYYJJYJYYYYYYYYYYY555555555555555555555555555555555555YYYY BBBBBBBBBBBB#####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;B5YYYYYYYYYYYYYYYYYYYYYYY5555555555555PPPP55555555555555555555555YYYY BBBBBBBBBBB####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;G55555555555555PPPP55555PP5555555555555555555555555555555555555YYY5 BBBBBBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@@@@@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#GPPPPPPPPP55P55555555555555YY5YYYYYYY55555555555PP555555555555YY5 BBBBBB####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#####B#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;@@@@@@@@@@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;##B#&amp;amp;#BB#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;&amp;amp;&amp;amp;##BPP5555555555YYYYYYYY5YYYYYYYYYYYYYY55555P5PPPPPPPPPPP5555555555P #BBBB#####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;######BBBBB#@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@@@@@@@&amp;amp;&amp;amp;@@@&amp;amp;#B#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;#BBBPPBBBBGGBB&amp;amp;&amp;amp;#BB#&amp;amp;#####P55YYYYYY5YYYYYY5555555YYYY5555555PPPPPPPPPPPPGGGPPPPPPPPPPPPPPP BBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;######BBBBBBGGGG&amp;amp;@&amp;amp;&amp;amp;&amp;amp;@@@@@@@@@@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;BG#&amp;amp;##&amp;amp;##BG5JJJ7~~77?J??J5B&amp;amp;&amp;amp;##B###B#&amp;amp;BP55555555Y555555PPPPPPPPPPPPPPGGGGGPPPPGGGPGGGGGPPPPPPPPPPPPPPP BGBBB##&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;####BBBBBBBGGGGGGGGGG#@@@@@@@@@@@@@@@@&amp;amp;#BGGGPPG5JJJ?77!!!~^^::::^~~!!?PB&amp;amp;&amp;amp;&amp;amp;&amp;amp;#BBB#&amp;amp;#GPGPPPPP55PPPPPPPPPGGGGGGGGGPPPPPPPPPPPGGGGGGGGGGPPPPPPPPPPPPPP BBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;######BBBGGGGGGGGGGGGGGGGPPB@@@@@@@@@@@@@@@@#GPPP55J?7!!!~~~~~~~^^::::^^~!!7?5#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;####BGGGPPPPPPPPPPPPPPPPPGGGGPPPPPPPPPPPPPPPGGGGGGGGGGGGGPPPPPPPPPPP ####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#####BBBBBBBGGGGPPPPPPGGGGGGGGPPPPB&amp;amp;@@@@@@@@@@@&amp;amp;&amp;amp;&amp;amp;#GPP55YYJ?7!!!!!~~~~~^^^:::^^~!!!7JG&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;##&amp;amp;GP555PPPPPPPPPPPPPPPPGGGPPPPPPPPPPPPPPPPPGGGGGGGGGGGGGPPPPPPPPPP &amp;amp;####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#####BBBBBBBBGGGGGGGGGGGPPPPPPPPGGPPPPPPPPG&amp;amp;@@@@@@@@@@&amp;amp;#BBGGGP555YJ?7!!!!!!~~~~~^^^^^^^~~~!!75&amp;amp;&amp;amp;&amp;amp;&amp;amp;#B##&amp;amp;P5555PPPPPPPPPPPPPPPPGGPPPPPGPGGPPGGGGPPGGGGBBBBBBBBBGGGPPPPPPPP #############BBBGBBGGGGGGGGGPPGGGPPPPPPPPPPPPPPPPP55PPPG&amp;amp;@@@@@@@@@@&amp;amp;##BBBBGPPP5J?77!~~~!!~~~~~~~~^^~~~!!77J#&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;B5Y555PPPP5PPPPPPPPPPPPPPGGGGBBBBGGGGBBBBBBBBBBBBBBBBBBBGGPPPPPPP #BBBBBBBBBBBBGGGGGGGGGGGGGGGGGGGGPPPPPPPPPGGPPPPPP555PPG#@@@@@@@@@&amp;amp;#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;BPYJ?7!!7??JJY5GGGPY?7?JJ77J#@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#PY5555P5P5555PPPPPPPPPGGGGGGBBBBBBBBB####BBBBBBBGBBBBBBBBGGPP5PPP BGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGPPPPPPPPPPPPPP55555PPPG&amp;amp;@@@@@@@@&amp;amp;########BB##&amp;amp;&amp;amp;#G5YJ??JY5PPPP5YJJ?77?J?!?#@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#555555555555PGGGGGGGBBBBBBBBBBBBBBBBBBBBBBBBBBGGGGBBBBBBBBBGP555P BGGGGGPPGGGGGGGGGGGPPPPGGGGGGGGGGGGPPPPPPPPPPPPP5555PPPPP#@@@@@@@&amp;amp;&amp;amp;##BBBBBBBB####BBBG5J???JJJYYYYYY?7!!!!!?B&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;BGYYY55555P55PPGGGGGGGGGGGGGGGBBBBBBBBBBBBGBBBBBGGGGGGGGGGGGGGP5555 BGGGGGPPPGGGGGGGGGGPPPPPGGGGGGGGGGGGGGGGGGGGGGGPPPPGGGPPPB&amp;amp;@@@@@@&amp;amp;#GGB#&amp;amp;&amp;amp;B5?YB##BGPGPY7^~~!?Y5Y?P##PPY7!!!7G&amp;amp;#&amp;amp;@BYYYYYY555PPPPPPGGGGGGPGGGGGGGGGGGGGGGPGGGPPPGGGGGGGGGGGGGGPPPGPP555 BGGGGPPPGGGGGGGGGGGGGGGGGGGGGGBBBBBBBBBBBBBBBBBGBBBBBBGGGPG@@@@@&amp;amp;#GPPPGGGG5J7777?Y5PPY7^^^^~777~!7!~!!~^~~!5&amp;amp;B#&amp;amp;Y?YYYYY5555PPPPPPPGGPP5PPP555PPPPPPPPPPPP555PPPGGGGGGGGGGGGGGGGGPPPP BGGGGGGGGGGGGGGGGGGGGGGGGGGGGBB#######BBBBBBBBBBBBBBBBBBGPP&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;#GPPPPPPP5J?7!!?5PPPY7~^^^^^~~~~^^^::^^^~!JPB##?JYJYYYYY55555555PPPPP555555555555555PPPP555PPPGGGGPGPPGGGGGGGGPPPPP BGGGGGGGGGGGGGPGGGGGGGGGGGGGBB#######BBBBBBBBGGGGGGGGGGGP55B&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#GP55555YYJ???Y5PPP5J7~^^^^^^~~~~~^^::^^~!?JG#P?JJJJJYYYYY555555PPPPPPPPPPPP5555YYY55PPPP55PPPPPPPPPPPGGGGGGPPP555P BGGGGGGGGGGGGGGGGGGGGGGGGGGGBBB###BBBBGGGGGGGGGGGPPPPPP5555P&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;#GPP55YYYYYY55PGGPYJ7~^^^^^::^^~~~~^^^~~7JYBG7?JJJJJJYYYY55555PPPPPPPPPPPPPPPPP55555PPP555PPGPPGPPGGGGGGGGGPP55555 BGGGGGGGGGGGGPGGGGGGGGGGGGGGGBBBBGGGGGGGPPPPPPPPP55555555555B&amp;amp;&amp;amp;&amp;amp;B#&amp;amp;BGPPP5555P55PPGP5YJ7~^^^^^~^^^~~~~~~~~!?JPBJ7????JJJJYYYYY5555555PPPPPPPPPPPPPPP5555555P5PPPPPPPPPPPPPPPPPPP55YY5 BGGGGGPGGGGGGGGGBBGGGGGGGGGGGGGGGPP5PPPPPPPP5555555555555555PB###B#BBGGPPPPPPPPPGGPGP5J7!~!!~^^^^~!!!!~~~!7YP?7????JJJJJJYYYY55555555555PP5PPPPPPPPPP555555PPP55YJJJY5PPPPPP555555Y5 GGGGPPPPGGGGGGGGGGGGGGGGGGGGGGGGPP5555PPPPPP55555YYY5555555555G&amp;amp;@#BBBGGPPPPPPPPPBBBBBBP5JJYJ!::^^^~~~~~~~~Y&amp;amp;5?????JJJJJJJJYYYY5YYYYYY55555555PPPPPPPPP555555555Y?7!7?Y5PPPPPP5555YYY GPPPPPPPPGGGGGGGGGGGPGGGGGGGPPPPP55555PPPPPP5555YYYY5555555555P&amp;amp;@&amp;amp;GGGGGPPPPPPPPPPGPPY7!J!^^^^^^:^^^^~~~~~~P#J?????????JJJJJJYYYYYYYYYYYYYYYY55P55PPPPP55YYY55555YJ?JY5PPPP5555YYYYYY GPGGPPPPPGGGGGGGGGPPPPPPGPPPPPP55555555PPPP5555YYYYYYYYYYYYYYYYB@&amp;amp;GPPPPPPPPPPGGGGP5YJ!!7!^^^^^^^^^^^^~~~~!GG???77????????JJJJ?JJJJJJJYYYYYY555P555PPP555YYYY555555YY55555555YYYYYYYY GPGPPPPPPPPPPPPPPPPPPPPPPPPP55555555555555555YYYYYYYYYYJJJJJJJJ5&amp;amp;#PGGPPPPPPPGGGPPPGGGGPJJJ?!~~^^^^^^^^^^~?B5??777??????????????JJJJJYYYYYYY555555555555555Y5555555YYY5555YYYYYYYJJJJ GPPPPPPPPPPPPP55PPPPPPPP55555555555YYYYYYYYYYYYYYYYYYYYJJJJJJJJYG&amp;amp;GBBGGGPPPPGGPGGGP5YY55YJJ??77~~~~~~~~~!GGJ???????????????JJJJJJJJJJJYYYYY5555555555555555555555555YYYYYYJJJJYYJJ?? G5PPPPPPPPPP5555PPPPPPP555YY55YYYYYYYYYYJJJYJJJJJJJJJJJJJJJJJJJJYGPG#BGGGGGGGGPPPP5Y?!!!~^~^^^^~~~~~~~!!7BY?????????JJ???JJJJYYYJJJJJYYYYY5555PPPPPP555555555555555YYYJJJJJJJJJJJJJJ P5555PPPPPPP555PPPP5PP555YYYYYYYYYYYJJJJJJJJJJJJJJJJJJJJJJJJJJJJJYYYB##BGGGGGGPPPPPP5555J7!!~~~~~~~~~!!!7Y?7????????????????JJJJJJJJJYYY55555PPPPPPPP555PP55YY5555YYYJJJJJJ?????JJJJ P5555PPPPPPPP555555555555YYYYYYYYYJJJJJYYYYJJJJJJJJJJJJJJJ??JJJJJJJ?5#&amp;amp;##BBGGPPPP5YJ77777!!!~!~~~~~~!!~~!7777????????777??????JJJJJJJJYYY55555PPPPPPPP55PPP5YYYYYYYJJJJJ????????JJ?? P5555555555P5555555555555YYYYYYYYYJJJJJJYYYYJJJJJ????JJJJJJJJJJ????7Y#&amp;amp;&amp;amp;&amp;amp;#BBGPPPP5J?!~~^^:^^^~~~~~!!!~~~!777????7777777777?????????JJJYYY5555PPPPPPPPPPP5555YYYYYYJJJJJ?????JJJJJJJ? 5YYYYYYY55555555555555555YYYYYYYYJJJ?JJJJJJJJJJJ??????JJJJJJ???????7JB&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#BGPPPP5Y?7!~~^^^~~~~~!!~~~~~!??777777777777777?????????JJJYYYY5555555PPPPPPP55555YYYYYYJJJJJJJJJYYYYYYJY 5YYYYYYYYYY5555YYYYYYY5YYYYYYJJJJJJ?????JJJJJJJ?????????JJJ????????7?GB#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#BGGPPP5J?77!!!!!!!!~~^^^^~!7777777777777777????????JJJJJJYYYY555555PPPPPPPP55555YYYYJJJYYYYYYYYYYYYYJY 5YYYJJJYYYYYYYYYYYYYYYYYYYYJJJJJJJJ?????????J????????????????????????PGGB#&amp;amp;@&amp;amp;&amp;amp;&amp;amp;##BBBGGP5YJ?7!~~~^^^^^^^~~7?????777777777777?7???JJ?JJJJYYYYYYYY555PPPPPPPP555YYYYYJJJJJJYYYJJJJJJJJJ 5JYJJJJJYYYYYYYYYYYYYYYYYJJJYJJJJJ?????JJJJJJJ????7?????JJ?JJJJJJJJ??5BGGGB#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#G5?7!!~^^^^^^^^^^^~!777777!!!!!!!!!!!7????????JJJYYYYYJJJY5P5555PPP5555YYYYYJJ?JJJJJJJJJJ????? 5JJJJJJJJJJYYYYYYYYYYYYYYJYYYYJJJJJJJJJYYYYYJJJJ????JJJJJJJJJJJJJJJJJ5GGGGPPGB######BPY??7!!~~~~^^^^^^^^^^~~~^^^~!!!!!!!!!!7?????JJJJJJJYYYYJJY5PPPPP555PPP55YJJYJJ????JJJJJJ??????7 YJJJJJJJJJJJJJYYYYYYYYYYYJJJJYYYYYYYJYYYYYYYYYJJJJJJYYYYYYJJJJJYYJ??YPGGGGPPP5PPPPPPP5Y?7!!~~~~~~^^^^^^:^^^^^^. ..:^~~~!777???????JJJJJJYYYJJJJ555PPPP555PPPPYYJJJJ?????JJJJ?????777 YJJJJJJJJJJJJJJJYYYYYYYYYJJJYY55YYYYJJJYYYYJYYJJJJJJYYYYYYJJJJJ?7!7J5PPGGGPPPP55PPP55YJ?77!!~~~!~~~^^^:::::^:^:.. ...:~7????????JJJJJJYYJ??JY55PPPPP5555PPPYYJJJJJ?J????????777!! YJJJJJJJJJJJJJJJYYYYYYYYJJJJYYYYYYYYJJJJJJJJJJJJJJJJJJJJYYJJ?7~^^JY555PPPPPPPP555555YJ??77!!!!!~~~~~^^:::::::^^... .~777????JJJJJJJJYJJJYY55PPPPP55555555YYYYYJJJ??????77777!! 5JJJJJJJYYYYYJJYYYYYYYYYJJJJJJYYYYYJJJJJJJJJJJJJJJJJJJJ??7!~^^^:!PP5555PPPPPPP555555YJJ?77!!!!!~~~~^^::::::::^~ .. .^~~!!!77????JJJYYYYYY5555555555555555YJJYYJJJJJJ????777777 5JYJJJJYYYYYYJJJYYYYYYYYYJJJJJJJJJJJJJJJJJJJJJ?????????~^:^^^^^^7PPP555PPPPPPPP5YYYYYJJ??7777!~~~^^^:::::::.:!! .. .^~~!77777777777?JYYY5Y5555555555555555YYYYYYJJJJ???????777 5JYJJJJJYYYYYYYYYYYYYYYYYYJJJJJJJ????????????????JJJJJ?^:^^^^^^^JPGP5P55555PPPP5JJJJJJ??????7!^^^^::::::::::~?~ :!!7?77!!!!!!!~^^~!7?JYYY5555PP55555PPP5YYYYYYYJJJ????????? 5YYJJJJJYYYYYYY5YYYYYYYYYYJJJJJJJ??7????????JJYY5555YY7::^^^^^:~5P555P5YYY55555Y?!!!7?J?JYJ?!~^:::^^^^^^^^~~??~ .^^~~!!!!!!!~~~~~~!777777??JJY55555PPP555YYYYYYJJJJJJ?????? 5YYYJJJYYYYYYYYYYYYYYYYYYYYJJJJJ???77777?JY5YJYYYY555J^::::::::~55555Y77J???YJJ?7~^^:^!7Y5J?!!~^^^^^^^^~~~~~~~: .:::~!77777!!!!!!777777!!!!!!!7?Y5P5PP555YYYYYYJJJJJJ?????? 5YYYYYYYYYYYYYYYYYYYYYYYYYYJJJJJ??JJ?7^^~!?????77777J!...::::..^????77777777?77!~^^::^~7JJ?777!^^^^^^^^^^^^^:^. ::::^!777777!!!!77777!~~~~~~~^^~~75P55555YYYYYYYJJJJJJ????? 5JYYYYYYYYYYYYYYYYYYYYYYYJJJJJ?JY55YJ?!!!77777!!~~~7Y!..:::::..~77????7777777!~~~~~^^~!??7!!77!~~^^^^^^^^^^^^~. :^^^^^!777777!!!!!!!!~^^^^^^^^^^^^!YPPP55YJJYYYYYYJJJJJJ??J 5JYYYYY5Y5YYJJYYYYYYYYYYYJ?7!~!?J?????777777!!~~^~!JY~..:::::..~7?????????777!~~^~~~~~!777777!~~~^~~~^^^^^^^~: .:^^^^^^~!!!!!!!!~~~~~~^::::::::::^^!JPPPP5YJJJYYYYYYJJJJJJJ 5YYYY555555YJJJYYYYYYYYYYJ????J?????77!!!!!~~~^^^!J5Y^..::.::..~?????????777!!~~^~~~~!!77777!!~~~~~~~~~~~^^^~. .:^^:^^^^~~!!!!~~~~^^^^^::::....::^^^!YPPPP5YJ??JYYYYYYYJJJJ 5YYYY555555YYJJYYYYYYYY5PP5P5YJ????77!!!!!~~~^^~!J55Y:..:..::..~777?77777777!!~~~~~^~~!77777!!~~~~~~~~~~~^^~: .</description>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en-US&#34;&gt;
+  &lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;script&gt;
+    fetch (&#39;https://www.asiapacific.ca/pgapi/public/bruce-lee.php&#39;)
+      .then (response =&gt; response.json ())
+      .then (data =&gt; {
+        const quote = `&lt;div class=&#39;quote-container&#39;&gt;` + data[&#39;quote&#39;] + `&lt;/div&gt;`
+        document.querySelector(&#39;.text-wrap&#39;).innerHTML = quote
+      })
+
+    // listen to all clicks on the document:
+
+    document.addEventListener(&#39;click&#39;, (e)=&gt; {
+      // check if the click is on the quote
+      if (e.target.classList.contains(&#39;quote-container&#39;)) {
+        // if so, add a loading class
+        e.target.classList.add(&#39;loading&#39;)
+        // if so, fetch a new quote
+        fetch (&#39;https://www.asiapacific.ca/pgapi/public/bruce-lee.php&#39;)
+          .then (response =&gt; response.json ())
+          .then (data =&gt; {
+            const quote = `&lt;div class=&#39;quote-container&#39;&gt;` + data[&#39;quote&#39;] + `&lt;/div&gt;`
+            document.querySelector(&#39;.text-wrap&#39;).innerHTML = quote
+          })
+      }
+    })
+  &lt;/script&gt;
+  &lt;style&gt;
+    body {
+      position: relative;
+    }
+
+    .text-image-wrap {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      color: #666;
+    }
+
+    /*
+    pre.text-image {
+      margin: 0 auto;
+      font-family: monospace;
+      font-size: calc(0.9vw);
+      line-height: calc(1vw);
+    }
+    */
+
+
+    @media (orientation: landscape) {
+      pre.text-image {
+        margin: 0 auto;
+        font-family: monospace;
+        font-size: calc(0.88vw);
+        line-height: calc(1.1vw);
+      }
+    }
+
+    @media (orientation: portrait) {
+      pre.text-image {
+        margin: 0 auto;
+        font-family: monospace;
+        font-size: calc(1.2vh);
+        line-height: calc(1.5vh);
+        transform: translate(50%,0%);
+        position: absolute;
+        top: 50%;
+        right: 50%;
+      }
+    }
+
+
+
+    .text-wrap {
+      position: fixed;
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .quote-container {
+      padding: 1em;
+      background: #ffffffbb;
+      max-width: 700px;
+      margin: 0 10%;
+      cursor: pointer;
+      font-size: 22px;
+    }
+    .quote-container.loading {
+      cursor: wait;
+    }
+
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&#34;text-image-wrap&#34;&gt;
+    &lt;pre class=&#34;text-image&#34;&gt;
+BGBBBBBBBBBBBBBBBBBBBBBBBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#BGPPPP55555555555555555555YYY55555555555555555PPPPPPPPPPGGGGGGPPPPPP55555555YYY
+BGBBBBBBBBBBBBBBBBBBBBBBBB####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;BP555YYYYY5555555YYY5555YYYY55YY5555555555PPPPPPPPPPPPPPPPPP555555555YYYYYYYY
+BGGBBBBBGBBBBBGBBBBBBB#####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#G55YYYY55555555555555555555YYY55555PPPPPPPPPPPPPPPP5555555555555YYYYYYYJJJY
+BGGGBBBBGBBBBBBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;#G555555555PP555555YYYYYYYYYYY55555PPPPPPPPPPPPP555YYYYY5555555YYYYYYYYJYY
+BGGBBBBBBBBBBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#G555YYY555YYYYYYYYYYYYYYYYYYY555555555555555555YYY55Y5555555555YYYYYYYY
+BBBBBBBBBBB#BB#####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;G5YYYYYYYYYYYYYJJYJYYYYYYYYYYY555555555555555555555555555555555555YYYY
+BBBBBBBBBBBB#####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;B5YYYYYYYYYYYYYYYYYYYYYYY5555555555555PPPP55555555555555555555555YYYY
+BBBBBBBBBBB####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;G55555555555555PPPP55555PP5555555555555555555555555555555555555YYY5
+BBBBBBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@@@@@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#GPPPPPPPPP55P55555555555555YY5YYYYYYY55555555555PP555555555555YY5
+BBBBBB####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#####B#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;@@@@@@@@@@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;##B#&amp;amp;#BB#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;###&amp;amp;&amp;amp;&amp;amp;&amp;amp;##BPP5555555555YYYYYYYY5YYYYYYYYYYYYYY55555P5PPPPPPPPPPP5555555555P
+#BBBB#####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;######BBBBB#@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@@@@@@@@&amp;amp;&amp;amp;@@@&amp;amp;#B#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;#BBBPPBBBBGGBB&amp;amp;&amp;amp;#BB#&amp;amp;#####P55YYYYYY5YYYYYY5555555YYYY5555555PPPPPPPPPPPPGGGPPPPPPPPPPPPPPP
+BBBBBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;######BBBBBBGGGG&amp;amp;@&amp;amp;&amp;amp;&amp;amp;@@@@@@@@@@@@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;BG#&amp;amp;##&amp;amp;##BG5JJJ7~~77?J??J5B&amp;amp;&amp;amp;##B###B#&amp;amp;BP55555555Y555555PPPPPPPPPPPPPPGGGGGPPPPGGGPGGGGGPPPPPPPPPPPPPPP
+BGBBB##&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;####BBBBBBBGGGGGGGGGG#@@@@@@@@@@@@@@@@&amp;amp;#BGGGPPG5JJJ?77!!!~^^::::^~~!!?PB&amp;amp;&amp;amp;&amp;amp;&amp;amp;#BBB#&amp;amp;#GPGPPPPP55PPPPPPPPPGGGGGGGGGPPPPPPPPPPPGGGGGGGGGGPPPPPPPPPPPPPP
+BBB###&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;######BBBGGGGGGGGGGGGGGGGPPB@@@@@@@@@@@@@@@@#GPPP55J?7!!!~~~~~~~^^::::^^~!!7?5#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;####BGGGPPPPPPPPPPPPPPPPPGGGGPPPPPPPPPPPPPPPGGGGGGGGGGGGGPPPPPPPPPPP
+####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#####BBBBBBBGGGGPPPPPPGGGGGGGGPPPPB&amp;amp;@@@@@@@@@@@&amp;amp;&amp;amp;&amp;amp;#GPP55YYJ?7!!!!!~~~~~^^^:::^^~!!!7JG&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;##&amp;amp;GP555PPPPPPPPPPPPPPPPGGGPPPPPPPPPPPPPPPPPGGGGGGGGGGGGGPPPPPPPPPP
+&amp;amp;####&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#####BBBBBBBBGGGGGGGGGGGPPPPPPPPGGPPPPPPPPG&amp;amp;@@@@@@@@@@&amp;amp;#BBGGGP555YJ?7!!!!!!~~~~~^^^^^^^~~~!!75&amp;amp;&amp;amp;&amp;amp;&amp;amp;#B##&amp;amp;P5555PPPPPPPPPPPPPPPPGGPPPPPGPGGPPGGGGPPGGGGBBBBBBBBBGGGPPPPPPPP
+#############BBBGBBGGGGGGGGGPPGGGPPPPPPPPPPPPPPPPP55PPPG&amp;amp;@@@@@@@@@@&amp;amp;##BBBBGPPP5J?77!~~~!!~~~~~~~~^^~~~!!77J#&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;&amp;amp;B5Y555PPPP5PPPPPPPPPPPPPPGGGGBBBBGGGGBBBBBBBBBBBBBBBBBBBGGPPPPPPP
+#BBBBBBBBBBBBGGGGGGGGGGGGGGGGGGGGPPPPPPPPPGGPPPPPP555PPG#@@@@@@@@@&amp;amp;#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;@@&amp;amp;&amp;amp;&amp;amp;&amp;amp;BPYJ?7!!7??JJY5GGGPY?7?JJ77J#@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#PY5555P5P5555PPPPPPPPPGGGGGGBBBBBBBBB####BBBBBBBGBBBBBBBBGGPP5PPP
+BGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGPPPPPPPPPPPPPP55555PPPG&amp;amp;@@@@@@@@&amp;amp;########BB##&amp;amp;&amp;amp;#G5YJ??JY5PPPP5YJJ?77?J?!?#@&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#555555555555PGGGGGGGBBBBBBBBBBBBBBBBBBBBBBBBBBGGGGBBBBBBBBBGP555P
+BGGGGGPPGGGGGGGGGGGPPPPGGGGGGGGGGGGPPPPPPPPPPPPP5555PPPPP#@@@@@@@&amp;amp;&amp;amp;##BBBBBBBB####BBBG5J???JJJYYYYYY?7!!!!!?B&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;BGYYY55555P55PPGGGGGGGGGGGGGGGBBBBBBBBBBBBGBBBBBGGGGGGGGGGGGGGP5555
+BGGGGGPPPGGGGGGGGGGPPPPPGGGGGGGGGGGGGGGGGGGGGGGPPPPGGGPPPB&amp;amp;@@@@@@&amp;amp;#GGB#&amp;amp;&amp;amp;B5?YB##BGPGPY7^~~!?Y5Y?P##PPY7!!!7G&amp;amp;#&amp;amp;@BYYYYYY555PPPPPPGGGGGGPGGGGGGGGGGGGGGGPGGGPPPGGGGGGGGGGGGGGPPPGPP555
+BGGGGPPPGGGGGGGGGGGGGGGGGGGGGGBBBBBBBBBBBBBBBBBGBBBBBBGGGPG@@@@@&amp;amp;#GPPPGGGG5J7777?Y5PPY7^^^^~777~!7!~!!~^~~!5&amp;amp;B#&amp;amp;Y?YYYYY5555PPPPPPPGGPP5PPP555PPPPPPPPPPPP555PPPGGGGGGGGGGGGGGGGGPPPP
+BGGGGGGGGGGGGGGGGGGGGGGGGGGGGBB#######BBBBBBBBBBBBBBBBBBGPP&amp;amp;@&amp;amp;&amp;amp;&amp;amp;&amp;amp;#GPPPPPPP5J?7!!?5PPPY7~^^^^^~~~~^^^::^^^~!JPB##?JYJYYYYY55555555PPPPP555555555555555PPPP555PPPGGGGPGPPGGGGGGGGPPPPP
+BGGGGGGGGGGGGGPGGGGGGGGGGGGGBB#######BBBBBBBBGGGGGGGGGGGP55B&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#GP55555YYJ???Y5PPP5J7~^^^^^^~~~~~^^::^^~!?JG#P?JJJJJYYYYY555555PPPPPPPPPPPP5555YYY55PPPP55PPPPPPPPPPPGGGGGGPPP555P
+BGGGGGGGGGGGGGGGGGGGGGGGGGGGBBB###BBBBGGGGGGGGGGGPPPPPP5555P&amp;amp;&amp;amp;&amp;amp;&amp;amp;#&amp;amp;#GPP55YYYYYY55PGGPYJ7~^^^^^::^^~~~~^^^~~7JYBG7?JJJJJJYYYY55555PPPPPPPPPPPPPPPPP55555PPP555PPGPPGPPGGGGGGGGGPP55555
+BGGGGGGGGGGGGPGGGGGGGGGGGGGGGBBBBGGGGGGGPPPPPPPPP55555555555B&amp;amp;&amp;amp;&amp;amp;B#&amp;amp;BGPPP5555P55PPGP5YJ7~^^^^^~^^^~~~~~~~~!?JPBJ7????JJJJYYYYY5555555PPPPPPPPPPPPPPP5555555P5PPPPPPPPPPPPPPPPPPP55YY5
+BGGGGGPGGGGGGGGGBBGGGGGGGGGGGGGGGPP5PPPPPPPP5555555555555555PB###B#BBGGPPPPPPPPPGGPGP5J7!~!!~^^^^~!!!!~~~!7YP?7????JJJJJJYYYY55555555555PP5PPPPPPPPPP555555PPP55YJJJY5PPPPPP555555Y5
+GGGGPPPPGGGGGGGGGGGGGGGGGGGGGGGGPP5555PPPPPP55555YYY5555555555G&amp;amp;@#BBBGGPPPPPPPPPBBBBBBP5JJYJ!::^^^~~~~~~~~Y&amp;amp;5?????JJJJJJJJYYYY5YYYYYY55555555PPPPPPPPP555555555Y?7!7?Y5PPPPPP5555YYY
+GPPPPPPPPGGGGGGGGGGGPGGGGGGGPPPPP55555PPPPPP5555YYYY5555555555P&amp;amp;@&amp;amp;GGGGGPPPPPPPPPPGPPY7!J!^^^^^^:^^^^~~~~~~P#J?????????JJJJJJYYYYYYYYYYYYYYYY55P55PPPPP55YYY55555YJ?JY5PPPP5555YYYYYY
+GPGGPPPPPGGGGGGGGGPPPPPPGPPPPPP55555555PPPP5555YYYYYYYYYYYYYYYYB@&amp;amp;GPPPPPPPPPPGGGGP5YJ!!7!^^^^^^^^^^^^~~~~!GG???77????????JJJJ?JJJJJJJYYYYYY555P555PPP555YYYY555555YY55555555YYYYYYYY
+GPGPPPPPPPPPPPPPPPPPPPPPPPPP55555555555555555YYYYYYYYYYJJJJJJJJ5&amp;amp;#PGGPPPPPPPGGGPPPGGGGPJJJ?!~~^^^^^^^^^^~?B5??777??????????????JJJJJYYYYYYY555555555555555Y5555555YYY5555YYYYYYYJJJJ
+GPPPPPPPPPPPPP55PPPPPPPP55555555555YYYYYYYYYYYYYYYYYYYYJJJJJJJJYG&amp;amp;GBBGGGPPPPGGPGGGP5YY55YJJ??77~~~~~~~~~!GGJ???????????????JJJJJJJJJJJYYYYY5555555555555555555555555YYYYYYJJJJYYJJ??
+G5PPPPPPPPPP5555PPPPPPP555YY55YYYYYYYYYYJJJYJJJJJJJJJJJJJJJJJJJJYGPG#BGGGGGGGGPPPP5Y?!!!~^~^^^^~~~~~~~!!7BY?????????JJ???JJJJYYYJJJJJYYYYY5555PPPPPP555555555555555YYYJJJJJJJJJJJJJJ
+P5555PPPPPPP555PPPP5PP555YYYYYYYYYYYJJJJJJJJJJJJJJJJJJJJJJJJJJJJJYYYB##BGGGGGGPPPPPP5555J7!!~~~~~~~~~!!!7Y?7????????????????JJJJJJJJJYYY55555PPPPPPPP555PP55YY5555YYYJJJJJJ?????JJJJ
+P5555PPPPPPPP555555555555YYYYYYYYYJJJJJYYYYJJJJJJJJJJJJJJJ??JJJJJJJ?5#&amp;amp;##BBGGPPPP5YJ77777!!!~!~~~~~~!!~~!7777????????777??????JJJJJJJJYYY55555PPPPPPPP55PPP5YYYYYYYJJJJJ????????JJ??
+P5555555555P5555555555555YYYYYYYYYJJJJJJYYYYJJJJJ????JJJJJJJJJJ????7Y#&amp;amp;&amp;amp;&amp;amp;#BBGPPPP5J?!~~^^:^^^~~~~~!!!~~~!777????7777777777?????????JJJYYY5555PPPPPPPPPPP5555YYYYYYJJJJJ?????JJJJJJJ?
+5YYYYYYY55555555555555555YYYYYYYYJJJ?JJJJJJJJJJJ??????JJJJJJ???????7JB&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#BGPPPP5Y?7!~~^^^~~~~~!!~~~~~!??777777777777777?????????JJJYYYY5555555PPPPPPP55555YYYYYYJJJJJJJJJYYYYYYJY
+5YYYYYYYYYY5555YYYYYYY5YYYYYYJJJJJJ?????JJJJJJJ?????????JJJ????????7?GB#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#BGGPPP5J?77!!!!!!!!~~^^^^~!7777777777777777????????JJJJJJYYYY555555PPPPPPPP55555YYYYJJJYYYYYYYYYYYYYJY
+5YYYJJJYYYYYYYYYYYYYYYYYYYYJJJJJJJJ?????????J????????????????????????PGGB#&amp;amp;@&amp;amp;&amp;amp;&amp;amp;##BBBGGP5YJ?7!~~~^^^^^^^~~7?????777777777777?7???JJ?JJJJYYYYYYYY555PPPPPPPP555YYYYYJJJJJJYYYJJJJJJJJJ
+5JYJJJJJYYYYYYYYYYYYYYYYYJJJYJJJJJ?????JJJJJJJ????7?????JJ?JJJJJJJJ??5BGGGB#&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;&amp;amp;#G5?7!!~^^^^^^^^^^^~!777777!!!!!!!!!!!7????????JJJYYYYYJJJY5P5555PPP5555YYYYYJJ?JJJJJJJJJJ?????
+5JJJJJJJJJJYYYYYYYYYYYYYYJYYYYJJJJJJJJJYYYYYJJJJ????JJJJJJJJJJJJJJJJJ5GGGGPPGB######BPY??7!!~~~~^^^^^^^^^^~~~^^^~!!!!!!!!!!7?????JJJJJJJYYYYJJY5PPPPP555PPP55YJJYJJ????JJJJJJ??????7
+YJJJJJJJJJJJJJYYYYYYYYYYYJJJJYYYYYYYJYYYYYYYYYJJJJJJYYYYYYJJJJJYYJ??YPGGGGPPP5PPPPPPP5Y?7!!~~~~~~^^^^^^:^^^^^^. ..:^~~~!777???????JJJJJJYYYJJJJ555PPPP555PPPPYYJJJJ?????JJJJ?????777
+YJJJJJJJJJJJJJJJYYYYYYYYYJJJYY55YYYYJJJYYYYJYYJJJJJJYYYYYYJJJJJ?7!7J5PPGGGPPPP55PPP55YJ?77!!~~~!~~~^^^:::::^:^:..    ...:~7????????JJJJJJYYJ??JY55PPPPP5555PPPYYJJJJJ?J????????777!!
+YJJJJJJJJJJJJJJJYYYYYYYYJJJJYYYYYYYYJJJJJJJJJJJJJJJJJJJJYYJJ?7~^^JY555PPPPPPPP555555YJ??77!!!!!~~~~~^^:::::::^^...       .~777????JJJJJJJJYJJJYY55PPPPP55555555YYYYYJJJ??????77777!!
+5JJJJJJJYYYYYJJYYYYYYYYYJJJJJJYYYYYJJJJJJJJJJJJJJJJJJJJ??7!~^^^:!PP5555PPPPPPP555555YJJ?77!!!!!~~~~^^::::::::^~       .. .^~~!!!77????JJJYYYYYY5555555555555555YJJYYJJJJJJ????777777
+5JYJJJJYYYYYYJJJYYYYYYYYYJJJJJJJJJJJJJJJJJJJJJ?????????~^:^^^^^^7PPP555PPPPPPPP5YYYYYJJ??7777!~~~^^^:::::::.:!!       .. .^~~!77777777777?JYYY5Y5555555555555555YYYYYYJJJJ???????777
+5JYJJJJJYYYYYYYYYYYYYYYYYYJJJJJJJ????????????????JJJJJ?^:^^^^^^^JPGP5P55555PPPP5JJJJJJ??????7!^^^^::::::::::~?~          :!!7?77!!!!!!!~^^~!7?JYYY5555PP55555PPP5YYYYYYYJJJ?????????
+5YYJJJJJYYYYYYY5YYYYYYYYYYJJJJJJJ??7????????JJYY5555YY7::^^^^^:~5P555P5YYY55555Y?!!!7?J?JYJ?!~^:::^^^^^^^^~~??~          .^^~~!!!!!!!~~~~~~!777777??JJY55555PPP555YYYYYYJJJJJJ??????
+5YYYJJJYYYYYYYYYYYYYYYYYYYYJJJJJ???77777?JY5YJYYYY555J^::::::::~55555Y77J???YJJ?7~^^:^!7Y5J?!!~^^^^^^^^~~~~~~~:          .:::~!77777!!!!!!777777!!!!!!!7?Y5P5PP555YYYYYYJJJJJJ??????
+5YYYYYYYYYYYYYYYYYYYYYYYYYYJJJJJ??JJ?7^^~!?????77777J!...::::..^????77777777?77!~^^::^~7JJ?777!^^^^^^^^^^^^^:^.          ::::^!777777!!!!77777!~~~~~~~^^~~75P55555YYYYYYYJJJJJJ?????
+5JYYYYYYYYYYYYYYYYYYYYYYYJJJJJ?JY55YJ?!!!77777!!~~~7Y!..:::::..~77????7777777!~~~~~^^~!??7!!77!~~^^^^^^^^^^^^~.          :^^^^^!777777!!!!!!!!~^^^^^^^^^^^^!YPPP55YJJYYYYYYJJJJJJ??J
+5JYYYYY5Y5YYJJYYYYYYYYYYYJ?7!~!?J?????777777!!~~^~!JY~..:::::..~7?????????777!~~^~~~~~!777777!~~~^~~~^^^^^^^~:          .:^^^^^^~!!!!!!!!~~~~~~^::::::::::^^!JPPPP5YJJJYYYYYYJJJJJJJ
+5YYYY555555YJJJYYYYYYYYYYJ????J?????77!!!!!~~~^^^!J5Y^..::.::..~?????????777!!~~^~~~~!!77777!!~~~~~~~~~~~^^^~.          .:^^:^^^^~~!!!!~~~~^^^^^::::....::^^^!YPPPP5YJ??JYYYYYYYJJJJ
+5YYYY555555YYJJYYYYYYYY5PP5P5YJ????77!!!!!~~~^^~!J55Y:..:..::..~777?77777777!!~~~~~^~~!77777!!~~~~~~~~~~~^^~:           .:::^^^^^^^~~~~~~~^^^^^^:::::....::^^^!YPPPPPYJJJYYYYYYJJJJJ
+5YYYYY55555YYYYYYYYYYY5PPPPP5J?????77!!!!~~~~~!!7Y55?......::..^!7777!!!7!!!!!~~~~^^^~~!77777!!!!~~~~~~~~^~^            .::::^^^^^^^^^^^~^^^^^^^^:::::....::^^~!YPPPPP5555555YYYYJJJ
+5JJYYYY5555YYYYYYYYYY5PPPPP5YJ?????77!!!~~~!!!77?Y55~......::...~!!!!!!!!!!!~~~~~^^~~~!!7777!!!!!~~~~~~^^^^.             ::::^^^^^:^^^^^^^^^^^^^^:::::....:::^^~!5PPPP555555555YYYYY
+5YYJJYY5555555555555YPGPPP5YYJ?????77!!!!!7777???J5Y:...........^!!!!!!!!!!!~~~~~~~~~~!7777!!!!~~~~^~~^^^^.              ::::::::::^^^^^::^^^^^^:::::::....:::^~~7555555PP555555YYYY
+5YYYYYY5PPP555555555PGPPP5YYJ??JJ???77777??????J?JYJ........:....^!!!!!!!!!!!!~~~~^^^^!7?77!!~~~~~~^^^^^.                :::::::::::::^:::::::^^:::::::::...::^^~~?5P555555555555YYY
+5YYYYY555555555555Y5GGPPP5YJJ??JJJJJ??JJ??JJJJJJ??Y7............ .^~!!!!!!!~~~~~^^^^^^~!??7!!!~~~~~^^:.                  .:^^:::::::::::::::::::::::::::::::::^^^~!YPPP5YYY555YYYYYY
+5YYYYYYY55YYYYYYYYYPGPPP5YJJ???JJJY5YYJJJYYYYJJ???J!...............:^~~!~~~~~^^^^^^^^^^!77!!!!~~~^:..                    .:::::::::::::::::::::::^:^^^^^::::::^^^~~JPPPP55YY55YYYYYJ
+5YYYY555555YYYY5555GPPPP5YJ?????J5PP555YY55YYYJ???J:............... ..::^^^^^^^^^::::^^!77!~~^::.                        .:::::::::::::^^^^^~^^^^^:^^^^^^^::::^^^^~!55555555555Y55YJ
+5YY555555P5YYYY555PP5PP5YYJ?77?J5PPPP5P55PPP5YJJ?J?.................... ..............::::...                             .::::::::^^^~!!!77777!~~^^^^^^^^::::^^^^^~J55555555YY55YYY
+5YYY5555555YYYY555PP5PP5YJJ???J5PP5PPPGGGGGGP5YYYY7........................                                               .:^!J55Y?!~!777?5GG5YJ?!!~^^^::::::::^^^^~?5YYY5555YY5Y!?Y
+      &lt;/pre&gt;
+  &lt;/div&gt;
+  &lt;div class=&#39;text-wrap&#39;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
     </item>
     
     <item>
@@ -137,7 +333,86 @@ I started to regret my decision when it seemed like tokens for images don&amp;rs
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://entra.ca/prov-tax-calc/</guid>
-      <description>&lt;!DOCTYPE html&gt; Provincial Tax Calculator Provincial Tax Calculator Enter your taxable income: Calculate </description>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta charset=&#34;utf-8&#34;&gt;
+	&lt;title&gt;Provincial Tax Calculator&lt;/title&gt;
+	&lt;style&gt;
+		input {
+			padding: 10px;
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+		button {
+			padding: 10px;
+			font-size: 20px;
+		}
+		table {
+			margin-top: 20px;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		table td, table th {
+			border: 1px solid black;
+			padding: 10px;
+		}
+		table th {
+			background-color: #ddd;
+			text-align: left;
+		}
+	&lt;/style&gt;
+  &lt;script&gt;
+
+    function calculate() {
+      const income = document.getElementById(&#34;income&#34;).value;
+      const tax = calculateProvincialTax(income);
+      alert(`Your provincial taxes are:\n${JSON.stringify(tax, null, 2)}`);
+    }
+
+    function calculateProvincialTax(taxableIncome) {
+      const provinces = [
+        { name: &#34;British Columbia&#34;, rates: [0.0506,0.077,0.105,0.1229,0.1470,0.1680,0.2050], brackets: [43070, 43071, 12760, 21193, 42738, 64259, Infinity] },
+        { name: &#34;Alberta&#34;, rates: [0.1, 0.12, 0.13, 0.15], brackets: [131220, 26244, 104976, Infinity] },
+        { name: &#34;Saskatchewan&#34;, rates: [0.105, 0.125, 0.145], brackets: [45677, 84829, Infinity] },
+        { name: &#34;Ontario&#34;, rates: [0.0505, 0.0915, 0.1116, 0.1216, 0.1316], brackets: [45142, 45145, 59713, 70000, Infinity] },
+        { name: &#34;Quebec&#34;, rates: [0.15, 0.2, 0.24, 0.2575], brackets: [45105, 45095, 19555, Infinity] },
+        { name: &#34;Yukon&#34;, rates: [0.064, 0.09, 0.109, 0.128, 0.15], brackets: [49020, 49020, 53938, 348022, Infinity] }
+      ];
+
+      const provincialTax = {};
+
+      provinces.forEach(province =&gt; {
+        let tax = 0;
+        let remainingIncome = taxableIncome;
+        for (let i = 0; i &lt; province.rates.length; i++) {
+          const rate = province.rates[i];
+          const bracket = province.brackets[i];
+          if (remainingIncome &gt; 0) {
+            const taxableAmount = Math.min(remainingIncome, bracket);
+            tax += taxableAmount * rate;
+            remainingIncome -= taxableAmount;
+          } else {
+            break;
+          }
+        }
+        provincialTax[province.name] = tax.toFixed(2);
+      });
+
+      return provincialTax;
+    }
+
+
+
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;Provincial Tax Calculator&lt;/h1&gt;
+	&lt;label for=&#34;income&#34;&gt;Enter your taxable income:&lt;/label&gt;
+	&lt;input type=&#34;number&#34; id=&#34;income&#34;&gt;
+	&lt;button onclick=&#34;calculate()&#34;&gt;Calculate&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
     </item>
     
   </channel>

@@ -11,15 +11,43 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jul 2024 11:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Syntax notes on Ruby ecosystem</title>
+      <link>https://entra.ca/blog/ruby-syntax/</link>
+      <pubDate>Fri, 12 Jul 2024 11:00:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/blog/ruby-syntax/</guid>
+      <description>&lt;h1 id=&#34;syntax-notes-on-ruby-ecosystem&#34;&gt;Syntax notes on Ruby ecosystem&lt;/h1&gt;
+&lt;p&gt;Some notes, on syntax in the Ruby ecosystem, namely Ruby itself, ERB and Rails.&lt;/p&gt;
+&lt;h2 id=&#34;ruby&#34;&gt;Ruby&lt;/h2&gt;
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# single line comment&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;=begin
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;Multi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;Line
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;Comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;The =begin and =end must be at the beginning of the line
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;=end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# or just&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# do multiline&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# like this&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Too bad multiline comments are a bit clunky&lt;/p&gt;
+&lt;h2 id=&#34;erb&#34;&gt;ERB&lt;/h2&gt;
+&lt;p&gt;ERB (Embedded Ruby) is a templating system for embedding Ruby code within a text document like HTML.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Drupal: Hidden fields in programaticly defined entities</title>
       <link>https://entra.ca/blog/drupal-hidden-programatic-entity-fields/</link>
       <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/blog/drupal-hidden-programatic-entity-fields/</guid>
-      <description>It can be useful to define custom entities programatically for streamlined CRUD webapps using Drupal. One nice thing about doing it this way is that you can keep all your entity definitions in the code, so deployment is easier - no clicking around on the various environments to keep things synced or akward db sync scripts.
-Sometimes a custom entity needs to have a hidden field that should not be exposed in the user-facing create/edit form.</description>
+      <description>&lt;p&gt;It can be useful to define custom entities programatically for streamlined CRUD webapps using Drupal. One nice thing about doing it this way is that you can keep all your entity definitions in the code, so deployment is easier - no clicking around on the various environments to keep things synced or akward db sync scripts.&lt;/p&gt;
+&lt;p&gt;Sometimes a custom entity needs to have a hidden field that should not be exposed in the user-facing create/edit form. It might have a value that&amp;rsquo;s handled programatically, like a timestamp for when the entity was published, or in my case, a special kind of &amp;ldquo;owner&amp;rdquo; that differs from the entity creator.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,8 +56,8 @@ Sometimes a custom entity needs to have a hidden field that should not be expose
       <pubDate>Thu, 30 May 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/blog/drupal-image-tokens/</guid>
-      <description>I was hitting a roadblock trying to get a sites metatags nice for social sharing, using the Metatags module. In the past I&amp;rsquo;ve written code to manually generate the meta tags, but thought this time around I would see if I could not reinvent the wheel.
-I started to regret my decision when it seemed like tokens for images don&amp;rsquo;t allow you to serve up derivative images using Image styles. This meant that the only option was to present the image that was uploaded in the raw form - not always what you want.</description>
+      <description>&lt;p&gt;I was hitting a roadblock trying to get a sites metatags nice for social sharing, using the Metatags module. In the past I&amp;rsquo;ve written code to manually generate the meta tags, but thought this time around I would see if I could not reinvent the wheel.&lt;/p&gt;
+&lt;p&gt;I started to regret my decision when it seemed like tokens for images don&amp;rsquo;t allow you to serve up derivative images using Image styles. This meant that the only option was to present the image that was uploaded in the raw form - not always what you want. In my case it seemed like some of the source images used by my client were so large that Formerly Twitter ™ was failing to scrape the image because of a timeout or some other limit on their end.&lt;/p&gt;</description>
     </item>
     
     <item>

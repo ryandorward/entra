@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://entra.ca/tags/blog/</loc>
-    <lastmod>2024-06-13T16:00:00+05:00</lastmod>
+    <lastmod>2024-07-12T11:00:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/blog/</loc>
-    <lastmod>2024-06-13T16:00:00+05:00</lastmod>
+    <lastmod>2024-07-12T11:00:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/</loc>
+    <lastmod>2024-07-12T11:00:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/erb/</loc>
+    <lastmod>2024-07-12T11:00:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/rails/</loc>
+    <lastmod>2024-07-12T11:00:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/ruby/</loc>
+    <lastmod>2024-07-12T11:00:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/blog/ruby-syntax/</loc>
+    <lastmod>2024-07-12T11:00:00+05:00</lastmod>
+  </url><url>
+    <loc>https://entra.ca/tags/</loc>
+    <lastmod>2024-07-12T11:00:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/drupal/</loc>
     <lastmod>2024-06-13T16:00:00+05:00</lastmod>
@@ -20,13 +38,7 @@
     <loc>https://entra.ca/tags/entities/</loc>
     <lastmod>2024-06-13T16:00:00+05:00</lastmod>
   </url><url>
-    <loc>https://entra.ca/</loc>
-    <lastmod>2024-06-13T16:00:00+05:00</lastmod>
-  </url><url>
     <loc>https://entra.ca/tags/programatic-drupal/</loc>
-    <lastmod>2024-06-13T16:00:00+05:00</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/</loc>
     <lastmod>2024-06-13T16:00:00+05:00</lastmod>
   </url><url>
     <loc>https://entra.ca/blog/drupal-image-tokens/</loc>
@@ -81,12 +93,6 @@
     <lastmod>2023-03-24T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/blog/dockerized-rails/</loc>
-    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/rails/</loc>
-    <lastmod>2023-03-24T22:57:04+05:30</lastmod>
-  </url><url>
-    <loc>https://entra.ca/tags/ruby/</loc>
     <lastmod>2023-03-24T22:57:04+05:30</lastmod>
   </url><url>
     <loc>https://entra.ca/tags/cheatsheet/</loc>

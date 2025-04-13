@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ruby on Entra.ca</title>
-    <link>https://entra.ca/tags/ruby/</link>
-    <description>Recent content in Ruby on Entra.ca</description>
+    <title>ERB on Entra.ca</title>
+    <link>https://entra.ca/tags/erb/</link>
+    <description>Recent content in ERB on Entra.ca</description>
     <image>
       <title>Entra.ca</title>
       <url>https://entra.ca/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2024 11:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jul 2024 11:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/erb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Syntax notes on Ruby ecosystem</title>
       <link>https://entra.ca/blog/ruby-syntax/</link>
@@ -38,15 +38,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Too bad multiline comments are a bit clunky&lt;/p&gt;
 &lt;h2 id=&#34;erb&#34;&gt;ERB&lt;/h2&gt;
 &lt;p&gt;ERB (Embedded Ruby) is a templating system for embedding Ruby code within a text document like HTML.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Dockerized Rails app</title>
-      <link>https://entra.ca/blog/dockerized-rails/</link>
-      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/blog/dockerized-rails/</guid>
-      <description>Walkthrough of a basic Rails setup using Docker</description>
     </item>
     
   </channel>

@@ -11,13 +11,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jul 2024 11:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://entra.ca/tags/blog/</link>
-      <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
+      <pubDate>Fri, 12 Jul 2024 11:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ERB</title>
+      <link>https://entra.ca/tags/erb/</link>
+      <pubDate>Fri, 12 Jul 2024 11:00:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/erb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rails</title>
+      <link>https://entra.ca/tags/rails/</link>
+      <pubDate>Fri, 12 Jul 2024 11:00:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://entra.ca/tags/ruby/</link>
+      <pubDate>Fri, 12 Jul 2024 11:00:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/tags/ruby/</guid>
       <description></description>
     </item>
     
@@ -153,24 +180,6 @@
       <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rails</title>
-      <link>https://entra.ca/tags/rails/</link>
-      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/rails/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://entra.ca/tags/ruby/</link>
-      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/ruby/</guid>
       <description></description>
     </item>
     
