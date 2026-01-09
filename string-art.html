@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>String Geometry Lab</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+  html, body {
+    margin: 0;
+    background: #050505;
+    color: #ccc;
+    font-family: system-ui, sans-serif;
+  }
+
+  #toggleControls {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 20;
+    background: rgba(0,0,0,0.7);
+    color: #ccc;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+
+  #controls {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    background: rgba(0,0,0,0.7);
+    padding: 10px 12px;
+    border-radius: 6px;
+    width: 300px;
+    max-width: calc(100% - 20px);
+    max-height: calc(100vh - 44px);
+    overflow: auto;
+  }
+
+  #controls.is-collapsed {
+    display: none;
+  }
+
+  label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 1px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+
+  input[type=range] {
+    width: 160px;
+  }
+
+  svg {
+    display: block;
+  }
+
+  #explain {
+    margin-top:10px;
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+
+  #n-label {
+    margin-top: 2.5rem;
+  }
+</style>
+<script type="module" src="/js/string-art.js"></script>
+</head>
+<body>
+
+<button id="toggleControls" type="button" aria-expanded="true">Hide Controls</button>
+<div id="controls">
+  <label id="n-label">Points: <span id="nLabel"></span></label>
+  <input id="n" type="range" min="2" max="400" value="120">
+
+  <label>Multiplier: <span id="mLabel"></span></label>
+  <input id="m" type="range" min="0" max="60" value="7">
+
+  <label>Offset: <span id="cLabel"></span></label>
+  <input id="c" type="range" min="0" max="600" value="0">
+
+  <label>Offset animation: <span id="cAnimLabel"></span></label>
+  <input id="cAnim" type="range" min="-100" max="100" value="0">
+
+  <label>Copies: <span id="kLabel"></span></label>
+  <input id="k" type="range" min="1" max="24" value="1">
+
+  <label>Colour Saturation: <span id="satLabel"></span></label>
+  <input id="sat" type="range" min="0" max="100" value="0">
+
+  <label>Hue rotate: <span id="hueLabel"></span></label>
+  <input id="hue" type="range" min="0" max="360" value="0">
+
+  <label>Hue rotate animate: <span id="hueAnimLabel"></span></label>
+  <input id="hueAnim" type="range" min="-100" max="100" value="0">
+
+  <label>
+    <input id="alignHue" type="checkbox" checked>
+    Phase-align hues of copies
+  </label>
+
+  <label>Brightness: <span id="brightLabel"></span></label>
+  <input id="bright" type="range" min="-20" max="20" value="0">
+
+  <label>Line thickness: <span id="thickLabel"></span></label>
+  <input id="thick" type="range" min="0.5" max="4" step="0.1" value="1">
+
+  <label>Opacity: <span id="opacityLabel"></span></label>
+  <input id="opacity" type="range" min="10" max="100" value="35">
+
+  <label>
+    <input id="hideOutline" type="checkbox">
+    Hide outer circle
+  </label>
+
+  <label>
+    <input id="showLabels" type="checkbox">
+    Hide point labels
+  </label>
+
+  <label>
+    <input id="swapY" type="checkbox">
+    Hack mode (swap Y)
+  </label>
+
+  <label>Zoom: <span id="rLabel"></span></label>
+  <input id="r" type="range" min="30" max="150" value="50">
+
+
+  <div id="explain">
+    Points (n) sets how many nodes sit on the circle.<br/>
+    Each point connects to one other point.<br/>
+    Multiplier (m) and offset
+    (c) map each point i to ((i × m) + c) mod n, drawing a line between them.
+    <br/><br/>
+    i -> ( (i*m) + c) % n
+    <br/><br/>
+    Copies (k) then adds multiple copies of the figure by making each point connect to k other points, evenly spread through the offset space
+    <br/><br/>
+    Tips to understand how this works: set a low number of points, a small multiplier, offset of 0, copies to 1, 0% saturation, enable the outer circle, turn the point labels on, and hack mode off.
+  </div>
+</div>
+
+<svg id="stage"></svg>
+
+</body>
+</html>
