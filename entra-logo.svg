@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1600" height="485" viewBox="275 140 1620 495"
+  role="img" aria-labelledby="title desc">
+  <title id="title">entra — geometric lowercase wordmark</title>
+  <desc id="desc">Charcoal geometric wordmark with a teal diagonal bar across the e.
+  The e is a concentric annulus of constant stroke width, cleanly cut into
+  upper and lower bowl segments with a narrow parallel gap below the left bar.</desc>
+
+  <!--
+    Concentric e construction:
+    Centre (494, 417); outside radius 184; inside radius 114.
+    The lower arc is a true circular offset of the outer arc.
+    No embedded images, fonts, painted-white erasers, or trace artifacts.
+  -->
+  <defs>
+    <clipPath id="bowl-visible" clipPathUnits="userSpaceOnUse">
+      <!-- Upper bowl above the sloped teal top edge: y = 599.9 - 0.4x -->
+      <path d="M270 140 H720 V311.9 L270 491.9 Z"/>
+      <!-- Lower bowl, 13 units below teal baseline on left:
+           y = 680.2 - 0.4x; flat opening on right at y = 471 -->
+      <path d="M270 572.2 L523 471 H720 V660 H270 Z"/>
+    </clipPath>
+    <linearGradient id="bar-grad" gradientUnits="userSpaceOnUse" x1="310" y1="520" x2="678" y2="370">
+      <stop offset="0" stop-color="#00757A"/>
+      <stop offset="1" stop-color="#6CCFC4"/>
+    </linearGradient>
+    <clipPath id="outer-e" clipPathUnits="userSpaceOnUse">
+      <circle cx="494" cy="417" r="184"/>
+    </clipPath>
+  </defs>
+
+  <g fill="#FAFAFA">
+    <!-- Exactly one concentric annular path, made from two circles -->
+    <path id="e-ring" fill-rule="evenodd" clip-path="url(#bowl-visible)"
+      d="M678 417
+         A184 184 0 1 1 310 417
+         A184 184 0 1 1 678 417 Z
+         M608 417
+         A114 114 0 1 0 380 417
+         A114 114 0 1 0 608 417 Z"/>
+    <!-- Original n, t, r and a vector geometry unchanged -->
+    <path d="M713 243 H766 Q776 243 776 253 V275
+    C800 255 825 243 859 243
+    C970 243 1034 321 1034 428
+    V577 Q1034 586 1026 586 H969 Q961 586 961 577
+    V430
+    C961 361 930 314 870 314
+    C811 314 777 364 777 429
+    V578 Q777 586 768 586 H713 Q705 586 705 578
+    V252 Q705 243 713 243 Z"/>
+<path d="M1107 168 H1162 Q1170 168 1170 176
+    V243 H1259 Q1268 243 1268 251 V310 Q1268 318 1260 318
+    H1170 V463
+    C1170 500 1187 516 1225 516
+    H1259 Q1268 516 1268 524 V577 Q1268 586 1259 586
+    H1219
+    C1142 586 1100 542 1100 461
+    V318 H1053 Q1045 318 1045 310 V251 Q1045 243 1053 243
+    H1100 V176 Q1100 168 1107 168 Z"/>
+<path d="M1316 246 H1372 Q1380 246 1380 254 V278
+    C1406 256 1426 246 1460 246
+    H1490 Q1498 246 1498 254 V308 Q1498 316 1490 316
+    H1469 C1408 316 1380 364 1380 435
+    V578 Q1380 586 1372 586 H1316 Q1308 586 1308 578
+    V254 Q1308 246 1316 246 Z"/>
+<path fill-rule="evenodd" d="M1786 243 H1844 Q1853 243 1853 252
+    V577 Q1853 586 1844 586 H1786 Q1777 586 1777 577 V550
+    C1748 580 1709 598 1664 598
+    C1562 598 1481 521 1481 420
+    C1481 318 1563 243 1664 243
+    C1713 243 1750 261 1777 290
+    V252 Q1777 243 1786 243 Z
+    M1665 314
+    C1601 314 1555 360 1555 421
+    C1555 482 1600 526 1666 526
+    C1728 526 1778 480 1778 421
+    C1778 361 1730 314 1665 314 Z"/>
+  </g>
+  <!-- Diagonal teal bar with straight, precisely parallel edges:
+       top y=599.9-0.4x; bottom y=667.2-0.4x.
+       Clipping to the same outer circle gives two perfectly curved ends. -->
+  <path id="e-bar" fill="url(#bar-grad)" clip-path="url(#outer-e)"
+        d="M270 491.9 L720 311.9 L720 379.2 L270 559.2 Z"/>
+</svg>
