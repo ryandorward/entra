@@ -11,7 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Mar 2023 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Apr 2024 22:57:04 +0530</lastBuildDate><atom:link href="https://entra.ca/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerized Rails app pt.3: hot reloading</title>
+      <link>https://entra.ca/blog/dockerized-rails-pt3/</link>
+      <pubDate>Fri, 26 Apr 2024 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/blog/dockerized-rails-pt3/</guid>
+      <description>Hot reloading for the dockerized Rails and Tailwind app</description>
+    </item>
+    
+    <item>
+      <title>Dockerized Rails app pt.2: adding Tailwind</title>
+      <link>https://entra.ca/blog/dockerized-rails-pt2/</link>
+      <pubDate>Thu, 25 Apr 2024 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/blog/dockerized-rails-pt2/</guid>
+      <description>Adding Tailwind to the basic Rails app</description>
+    </item>
+    
     <item>
       <title>Dockerized Rails app</title>
       <link>https://entra.ca/blog/dockerized-rails/</link>

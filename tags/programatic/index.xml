@@ -13,7 +13,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jan 2024 13:41:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/programatic/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cache Variance in Drupal Templates</title>
+      <title>Cache variance in Drupal templates</title>
       <link>https://entra.ca/blog/drupal-cache-variance-template-trick/</link>
       <pubDate>Mon, 15 Jan 2024 13:41:00 +0500</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Drupal ListStringItem pt.2: Getting the translated value</title>
+      <title>Drupal ListStringItem pt.2: getting the translated value</title>
       <link>https://entra.ca/blog/drupal-translated-liststringitem/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>Drupal ListStringItem pt.1: Getting the human-readable value programatically</title>
+      <title>Drupal ListStringItem pt.1: getting the human-readable value programatically</title>
       <link>https://entra.ca/blog/drupal-human-readable-liststringitem/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
       

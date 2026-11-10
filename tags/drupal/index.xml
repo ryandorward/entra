@@ -11,9 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2024 16:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Oct 2026 11:00:00 -0700</lastBuildDate><atom:link href="https://entra.ca/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Drupal: Hidden fields in programaticly defined entities</title>
+      <title>Diagnosing and resolving performance problems in a complex Drupal platform</title>
+      <link>https://entra.ca/blog/drupal-performance-case-study/</link>
+      <pubDate>Fri, 23 Oct 2026 11:00:00 -0700</pubDate>
+      
+      <guid>https://entra.ca/blog/drupal-performance-case-study/</guid>
+      <description>Case study: tracing intermittent slowdowns and outages in a large Drupal site, including an application that could deadlock itself.</description>
+    </item>
+    
+    <item>
+      <title>Drupal: hidden fields in programaticly defined entities</title>
       <link>https://entra.ca/blog/drupal-hidden-programatic-entity-fields/</link>
       <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
       
@@ -23,7 +32,7 @@
     </item>
     
     <item>
-      <title>Drupal: Image styles in Tokens</title>
+      <title>Drupal: image styles in tokens</title>
       <link>https://entra.ca/blog/drupal-image-tokens/</link>
       <pubDate>Thu, 30 May 2024 16:00:00 +0500</pubDate>
       
@@ -33,7 +42,16 @@
     </item>
     
     <item>
-      <title>Cache Variance in Drupal Templates</title>
+      <title>A React-based component in Drupal</title>
+      <link>https://entra.ca/blog/drupal-react/</link>
+      <pubDate>Fri, 15 Mar 2024 13:41:00 +0500</pubDate>
+      
+      <guid>https://entra.ca/blog/drupal-react/</guid>
+      <description>Building a React-based feature in a Drupal context</description>
+    </item>
+    
+    <item>
+      <title>Cache variance in Drupal templates</title>
       <link>https://entra.ca/blog/drupal-cache-variance-template-trick/</link>
       <pubDate>Mon, 15 Jan 2024 13:41:00 +0500</pubDate>
       
@@ -42,7 +60,7 @@
     </item>
     
     <item>
-      <title>Make your Drupal Theme Fly: Tailwind, Hot Reloading, and SCSS</title>
+      <title>Make your Drupal theme fly: Tailwind, hot reloading, and SCSS</title>
       <link>https://entra.ca/blog/drupal-tailwind-livereload-scss/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
@@ -51,7 +69,7 @@
     </item>
     
     <item>
-      <title>Drupal ListStringItem pt.2: Getting the translated value</title>
+      <title>Drupal ListStringItem pt.2: getting the translated value</title>
       <link>https://entra.ca/blog/drupal-translated-liststringitem/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
       
@@ -60,7 +78,7 @@
     </item>
     
     <item>
-      <title>Drupal ListStringItem pt.1: Getting the human-readable value programatically</title>
+      <title>Drupal ListStringItem pt.1: getting the human-readable value programatically</title>
       <link>https://entra.ca/blog/drupal-human-readable-liststringitem/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
       

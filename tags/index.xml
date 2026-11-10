@@ -11,13 +11,85 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2024 11:00:00 +0500</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2026 08:30:00 -0800</lastBuildDate><atom:link href="https://entra.ca/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://entra.ca/tags/blog/</link>
-      <pubDate>Fri, 12 Jul 2024 11:00:00 +0500</pubDate>
+      <pubDate>Tue, 10 Nov 2026 08:30:00 -0800</pubDate>
       
       <guid>https://entra.ca/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Case Studies</title>
+      <link>https://entra.ca/tags/case-studies/</link>
+      <pubDate>Tue, 10 Nov 2026 08:30:00 -0800</pubDate>
+      
+      <guid>https://entra.ca/tags/case-studies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Software</title>
+      <link>https://entra.ca/tags/custom-software/</link>
+      <pubDate>Tue, 10 Nov 2026 08:30:00 -0800</pubDate>
+      
+      <guid>https://entra.ca/tags/custom-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E-Commerce</title>
+      <link>https://entra.ca/tags/e-commerce/</link>
+      <pubDate>Tue, 10 Nov 2026 08:30:00 -0800</pubDate>
+      
+      <guid>https://entra.ca/tags/e-commerce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems Integration</title>
+      <link>https://entra.ca/tags/systems-integration/</link>
+      <pubDate>Tue, 10 Nov 2026 08:30:00 -0800</pubDate>
+      
+      <guid>https://entra.ca/tags/systems-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drupal</title>
+      <link>https://entra.ca/tags/drupal/</link>
+      <pubDate>Fri, 23 Oct 2026 11:00:00 -0700</pubDate>
+      
+      <guid>https://entra.ca/tags/drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>https://entra.ca/tags/performance/</link>
+      <pubDate>Fri, 23 Oct 2026 11:00:00 -0700</pubDate>
+      
+      <guid>https://entra.ca/tags/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems Engineering</title>
+      <link>https://entra.ca/tags/systems-engineering/</link>
+      <pubDate>Fri, 23 Oct 2026 11:00:00 -0700</pubDate>
+      
+      <guid>https://entra.ca/tags/systems-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://entra.ca/tags/ai/</link>
+      <pubDate>Thu, 26 Feb 2026 11:00:00 -0800</pubDate>
+      
+      <guid>https://entra.ca/tags/ai/</guid>
       <description></description>
     </item>
     
@@ -49,15 +121,6 @@
     </item>
     
     <item>
-      <title>Drupal</title>
-      <link>https://entra.ca/tags/drupal/</link>
-      <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
-      
-      <guid>https://entra.ca/tags/drupal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Drupal 10</title>
       <link>https://entra.ca/tags/drupal-10/</link>
       <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
@@ -81,6 +144,24 @@
       <pubDate>Thu, 13 Jun 2024 16:00:00 +0500</pubDate>
       
       <guid>https://entra.ca/tags/programatic-drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://entra.ca/tags/docker/</link>
+      <pubDate>Fri, 26 Apr 2024 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tailwind</title>
+      <link>https://entra.ca/tags/tailwind/</link>
+      <pubDate>Fri, 26 Apr 2024 22:57:04 +0530</pubDate>
+      
+      <guid>https://entra.ca/tags/tailwind/</guid>
       <description></description>
     </item>
     
@@ -157,29 +238,11 @@
     </item>
     
     <item>
-      <title>Tailwind</title>
-      <link>https://entra.ca/tags/tailwind/</link>
-      <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/tailwind/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Theming</title>
       <link>https://entra.ca/tags/theming/</link>
       <pubDate>Tue, 12 Dec 2023 22:57:04 +0530</pubDate>
       
       <guid>https://entra.ca/tags/theming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://entra.ca/tags/docker/</link>
-      <pubDate>Fri, 24 Mar 2023 22:57:04 +0530</pubDate>
-      
-      <guid>https://entra.ca/tags/docker/</guid>
       <description></description>
     </item>
     
