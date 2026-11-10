@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>String geometry lab: a times table on a circle</title>
+      <link>https://entra.ca/blog/string-geometry-lab/</link>
+      <pubDate>Thu, 08 Jan 2026 21:07:39 -0800</pubDate>
+      
+      <guid>https://entra.ca/blog/string-geometry-lab/</guid>
+      <description>An interactive toy that draws one simple rule on a circle, and the surprisingly rich patterns that come out of it.</description>
+    </item>
+    
+    <item>
       <title>Syntax notes on Ruby ecosystem</title>
       <link>https://entra.ca/blog/ruby-syntax/</link>
       <pubDate>Fri, 12 Jul 2024 11:00:00 +0500</pubDate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Math on Entra.ca</title>
+    <link>https://entra.ca/tags/math/</link>
+    <description>Recent content in Math on Entra.ca</description>
+    <image>
+      <title>Entra.ca</title>
+      <url>https://entra.ca/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://entra.ca/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jan 2026 21:07:39 -0800</lastBuildDate><atom:link href="https://entra.ca/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>String geometry lab: a times table on a circle</title>
+      <link>https://entra.ca/blog/string-geometry-lab/</link>
+      <pubDate>Thu, 08 Jan 2026 21:07:39 -0800</pubDate>
+      
+      <guid>https://entra.ca/blog/string-geometry-lab/</guid>
+      <description>An interactive toy that draws one simple rule on a circle, and the surprisingly rich patterns that come out of it.</description>
+    </item>
+    
+  </channel>
+</rss>
